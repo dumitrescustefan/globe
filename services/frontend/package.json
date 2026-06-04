@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "flag-icons": "^7.5.0",
@@ -22,6 +23,7 @@
     "three": "^0.184.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.39.2",
     "@eslint/js": "^10.0.1",
     "@modyfi/vite-plugin-yaml": "^1.1.1",
     "@tailwindcss/vite": "^4.3.0",
@@ -37,6 +39,7 @@
     "tailwindcss": "^4.3.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "wrangler": "^4.97.0"
   }
 }

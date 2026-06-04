@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import yaml from '@modyfi/vite-plugin-yaml'
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), yaml()],
+  plugins: [react(), tailwindcss(), yaml(), cloudflare()],
 })
