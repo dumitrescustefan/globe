@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import Globe, { type GlobeMethods } from 'react-globe.gl'
 import {
   featureCentroid,
@@ -137,14 +137,16 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
     [selectedIso3, hoveredIso3],
   )
 
+  // Darker extruded rim separates neighbors without 1px stroke lines (option A).
   const sideColor = useCallback(
     (feat: object) => {
       const iso3 = featureIso3(feat as CountryFeature)
       const country = getCountryByIso3(iso3)
       const base = country ? colorForRating(country.rating) : '#475569'
-      return hexToRgba(base, 0.35)
+      const rimAlpha = theme === 'dark' ? 0.55 : 0.65
+      return hexToRgba(base, rimAlpha)
     },
-    [],
+    [theme],
   )
 
   const polygonAltitude = useCallback(
@@ -199,11 +201,6 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
     [selectedIso3, setAutoRotate],
   )
 
-  const strokeColor = useMemo(
-    () => (theme === 'dark' ? '#0b0f17' : '#e2e8f0'),
-    [theme],
-  )
-
   return (
     <div ref={containerRef} className="relative h-full w-full">
       {size.width > 0 && size.height > 0 && (
@@ -219,7 +216,6 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
           polygonsData={features}
           polygonCapColor={capColor}
           polygonSideColor={sideColor}
-          polygonStrokeColor={() => strokeColor}
           polygonAltitude={polygonAltitude}
           polygonLabel={polygonLabel}
           polygonsTransitionDuration={300}
