@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+
+  /* Sovereign risk tier palette (shared across themes) */
+  --color-risk-aaa: #2dd4a7;
+  --color-risk-aa: #34d399;
+  --color-risk-a: #84cc16;
+  --color-risk-bbb: #eab308;
+  --color-risk-bb: #f59e0b;
+  --color-risk-b: #f97316;
+  --color-risk-ccc: #ef4444;
+  --color-risk-d: #b91c1c;
+  --color-risk-na: #64748b;
+}
+
+/*
+  Semantic surface tokens. Light values live on :root, dark values are applied
+  when the `.dark` class is present on <html> (toggled by useTheme).
+*/
+:root {
+  --bg: #f6f7f9;
+  --bg-elevated: #ffffff;
+  --bg-globe: #eef2f7;
+  --surface: rgba(255, 255, 255, 0.85);
+  --surface-border: rgba(15, 23, 42, 0.1);
+  --text: #334155;
+  --text-strong: #0f172a;
+  --text-muted: #64748b;
+  --accent: #2563eb;
+  --accent-contrast: #ffffff;
+  --ring: rgba(37, 99, 235, 0.35);
+}
+
+.dark {
+  --bg: #07090f;
+  --bg-elevated: #0d111a;
+  --bg-globe: #05070c;
+  --surface: rgba(17, 23, 36, 0.72);
+  --surface-border: rgba(148, 163, 184, 0.14);
+  --text: #cbd5e1;
+  --text-strong: #f8fafc;
+  --text-muted: #8b97a9;
+  --accent: #60a5fa;
+  --accent-contrast: #06121f;
+  --ring: rgba(96, 165, 250, 0.4);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Thin, theme-aware scrollbars for the detail panel */
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: var(--surface-border) transparent;
+}
+.scroll-slim::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll-slim::-webkit-scrollbar-thumb {
+  background-color: var(--surface-border);
+  border-radius: 9999px;
+}

@@ -1,0 +1,6075 @@
+# Sovereign risk database (prototype).
+# Curated entries (dataQuality: real) use approximate IMF/World Bank/S&P figures.
+# Remaining entries (dataQuality: estimated) are model-generated for completeness.
+# Regenerate with: node scripts/generate-data.mjs
+
+AFG:
+  iso_a2: AF
+  iso_a3: AFG
+  name: Afghanistan
+  region: Southern Asia
+  flag: 🇦🇫
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 19
+    publicFinance: 37
+    external: 21
+    financialStability: 32
+    esgPolitical: 28
+  metrics:
+    gdpGrowth: 4.9
+    debtToGdp: 63
+    inflation: 9.8
+    fiscalBalance: -3.9
+    currentAccount: -4.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/AFG"
+  dataQuality: estimated
+
+AGO:
+  iso_a2: AO
+  iso_a3: AGO
+  name: Angola
+  region: Middle Africa
+  flag: 🇦🇴
+  rating: BBB-
+  outlook: negative
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 46
+    publicFinance: 60
+    external: 54
+    financialStability: 59
+    esgPolitical: 57
+  metrics:
+    gdpGrowth: 4
+    debtToGdp: 79
+    inflation: 3.5
+    fiscalBalance: -4.1
+    currentAccount: -0.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/AGO"
+  dataQuality: estimated
+
+ALB:
+  iso_a2: AL
+  iso_a3: ALB
+  name: Albania
+  region: Southern Europe
+  flag: 🇦🇱
+  rating: B
+  outlook: positive
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 45
+    publicFinance: 40
+    external: 41
+    financialStability: 40
+    esgPolitical: 43
+  metrics:
+    gdpGrowth: 3.1
+    debtToGdp: 60
+    inflation: 9.9
+    fiscalBalance: -6.8
+    currentAccount: -4.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ALB"
+  dataQuality: estimated
+
+ARE:
+  iso_a2: AE
+  iso_a3: ARE
+  name: United Arab Emirates
+  region: Western Asia
+  flag: 🇦🇪
+  rating: AA
+  outlook: stable
+  scoreIndex: 18
+  categories:
+    domesticEconomic: 90
+    publicFinance: 89
+    external: 82
+    financialStability: 89
+    esgPolitical: 89
+  metrics:
+    gdpGrowth: 4
+    debtToGdp: 30
+    inflation: 2
+    fiscalBalance: 5
+    currentAccount: 7.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ARE"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+ARG:
+  iso_a2: AR
+  iso_a3: ARG
+  name: Argentina
+  region: South America
+  flag: 🇦🇷
+  rating: CCC
+  outlook: stable
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 23
+    publicFinance: 19
+    external: 28
+    financialStability: 19
+    esgPolitical: 19
+  metrics:
+    gdpGrowth: -1.5
+    debtToGdp: 85
+    inflation: 120
+    fiscalBalance: -2
+    currentAccount: 0.8
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at CCC with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ARG"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+ARM:
+  iso_a2: AM
+  iso_a3: ARM
+  name: Armenia
+  region: Western Asia
+  flag: 🇦🇲
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 41
+    publicFinance: 32
+    external: 22
+    financialStability: 22
+    esgPolitical: 40
+  metrics:
+    gdpGrowth: 4.7
+    debtToGdp: 57
+    inflation: 6.3
+    fiscalBalance: -3
+    currentAccount: -1.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ARM"
+  dataQuality: estimated
+
+ATA:
+  iso_a2: AQ
+  iso_a3: ATA
+  name: Antarctica
+  region: Antarctica
+  flag: 🇦🇶
+  rating: A-
+  outlook: negative
+  scoreIndex: 14
+  categories:
+    domesticEconomic: 77
+    publicFinance: 59
+    external: 78
+    financialStability: 80
+    esgPolitical: 78
+  metrics:
+    gdpGrowth: 1.8
+    debtToGdp: 35
+    inflation: 4.6
+    fiscalBalance: -1.3
+    currentAccount: 1.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ATA"
+  dataQuality: estimated
+
+ATF:
+  iso_a2: TF
+  iso_a3: ATF
+  name: French Southern and Antarctic Lands
+  region: Seven seas (open ocean)
+  flag: 🇹🇫
+  rating: A
+  outlook: stable
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 84
+    publicFinance: 68
+    external: 84
+    financialStability: 68
+    esgPolitical: 80
+  metrics:
+    gdpGrowth: 3.9
+    debtToGdp: 34
+    inflation: 2.4
+    fiscalBalance: -1
+    currentAccount: 3.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ATF"
+  dataQuality: estimated
+
+AUS:
+  iso_a2: AU
+  iso_a3: AUS
+  name: Australia
+  region: Australia and New Zealand
+  flag: 🇦🇺
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 96
+    publicFinance: 91
+    external: 98
+    financialStability: 98
+    esgPolitical: 98
+  metrics:
+    gdpGrowth: 1.5
+    debtToGdp: 50
+    inflation: 3.2
+    fiscalBalance: -1.5
+    currentAccount: -1.3
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/AUS"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+AUT:
+  iso_a2: AT
+  iso_a3: AUT
+  name: Austria
+  region: Western Europe
+  flag: 🇦🇹
+  rating: AA+
+  outlook: stable
+  scoreIndex: 19
+  categories:
+    domesticEconomic: 98
+    publicFinance: 98
+    external: 89
+    financialStability: 92
+    esgPolitical: 87
+  metrics:
+    gdpGrowth: 0.3
+    debtToGdp: 79
+    inflation: 3
+    fiscalBalance: -3.1
+    currentAccount: 2.6
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/AUT"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+AZE:
+  iso_a2: AZ
+  iso_a3: AZE
+  name: Azerbaijan
+  region: Western Asia
+  flag: 🇦🇿
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 44
+    publicFinance: 51
+    external: 39
+    financialStability: 57
+    esgPolitical: 56
+  metrics:
+    gdpGrowth: 3.8
+    debtToGdp: 54
+    inflation: 3.2
+    fiscalBalance: -2.1
+    currentAccount: 0
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/AZE"
+  dataQuality: estimated
+
+BDI:
+  iso_a2: BI
+  iso_a3: BDI
+  name: Burundi
+  region: Eastern Africa
+  flag: 🇧🇮
+  rating: B
+  outlook: negative
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 31
+    publicFinance: 35
+    external: 29
+    financialStability: 24
+    esgPolitical: 28
+  metrics:
+    gdpGrowth: 2.6
+    debtToGdp: 56
+    inflation: 12.9
+    fiscalBalance: -4
+    currentAccount: -7.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BDI"
+  dataQuality: estimated
+
+BEL:
+  iso_a2: BE
+  iso_a3: BEL
+  name: Belgium
+  region: Western Europe
+  flag: 🇧🇪
+  rating: AA
+  outlook: negative
+  scoreIndex: 18
+  categories:
+    domesticEconomic: 87
+    publicFinance: 86
+    external: 86
+    financialStability: 86
+    esgPolitical: 90
+  metrics:
+    gdpGrowth: 1
+    debtToGdp: 105
+    inflation: 2.4
+    fiscalBalance: -4.6
+    currentAccount: -0.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA with a negative outlook by lead agency.
+      impact: negative
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BEL"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+BEN:
+  iso_a2: BJ
+  iso_a3: BEN
+  name: Benin
+  region: Western Africa
+  flag: 🇧🇯
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 23
+    publicFinance: 30
+    external: 31
+    financialStability: 34
+    esgPolitical: 35
+  metrics:
+    gdpGrowth: 6.2
+    debtToGdp: 51
+    inflation: 12.3
+    fiscalBalance: -4.4
+    currentAccount: -3.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BEN"
+  dataQuality: estimated
+
+BFA:
+  iso_a2: BF
+  iso_a3: BFA
+  name: Burkina Faso
+  region: Western Africa
+  flag: 🇧🇫
+  rating: CCC-
+  outlook: negative
+  scoreIndex: 3
+  categories:
+    domesticEconomic: 24
+    publicFinance: 13
+    external: 19
+    financialStability: 16
+    esgPolitical: 4
+  metrics:
+    gdpGrowth: 3.8
+    debtToGdp: 71
+    inflation: 14.1
+    fiscalBalance: -7.2
+    currentAccount: -7.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BFA"
+  dataQuality: estimated
+
+BGD:
+  iso_a2: BD
+  iso_a3: BGD
+  name: Bangladesh
+  region: Southern Asia
+  flag: 🇧🇩
+  rating: CCC+
+  outlook: negative
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 20
+    publicFinance: 29
+    external: 15
+    financialStability: 17
+    esgPolitical: 26
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 81
+    inflation: 9.8
+    fiscalBalance: -6
+    currentAccount: -4.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BGD"
+  dataQuality: estimated
+
+BGR:
+  iso_a2: BG
+  iso_a3: BGR
+  name: Bulgaria
+  region: Eastern Europe
+  flag: 🇧🇬
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 54
+    publicFinance: 58
+    external: 54
+    financialStability: 47
+    esgPolitical: 56
+  metrics:
+    gdpGrowth: 4.9
+    debtToGdp: 40
+    inflation: 4.2
+    fiscalBalance: -3.6
+    currentAccount: -4.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BGR"
+  dataQuality: estimated
+
+BHS:
+  iso_a2: BS
+  iso_a3: BHS
+  name: The Bahamas
+  region: Caribbean
+  flag: 🇧🇸
+  rating: A-
+  outlook: stable
+  scoreIndex: 14
+  categories:
+    domesticEconomic: 66
+    publicFinance: 72
+    external: 76
+    financialStability: 78
+    esgPolitical: 80
+  metrics:
+    gdpGrowth: 1.3
+    debtToGdp: 51
+    inflation: 3.9
+    fiscalBalance: 0
+    currentAccount: 0.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BHS"
+  dataQuality: estimated
+
+BIH:
+  iso_a2: BA
+  iso_a3: BIH
+  name: Bosnia and Herzegovina
+  region: Southern Europe
+  flag: 🇧🇦
+  rating: BBB-
+  outlook: stable
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 53
+    publicFinance: 53
+    external: 57
+    financialStability: 58
+    esgPolitical: 64
+  metrics:
+    gdpGrowth: 2.9
+    debtToGdp: 66
+    inflation: 7.3
+    fiscalBalance: -5.6
+    currentAccount: -1.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BIH"
+  dataQuality: estimated
+
+BLR:
+  iso_a2: BY
+  iso_a3: BLR
+  name: Belarus
+  region: Eastern Europe
+  flag: 🇧🇾
+  rating: BB+
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 40
+    publicFinance: 45
+    external: 46
+    financialStability: 54
+    esgPolitical: 40
+  metrics:
+    gdpGrowth: 4.7
+    debtToGdp: 65
+    inflation: 3.9
+    fiscalBalance: -5.6
+    currentAccount: 1.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BLR"
+  dataQuality: estimated
+
+BLZ:
+  iso_a2: BZ
+  iso_a3: BLZ
+  name: Belize
+  region: Central America
+  flag: 🇧🇿
+  rating: CCC+
+  outlook: negative
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 34
+    publicFinance: 32
+    external: 21
+    financialStability: 20
+    esgPolitical: 29
+  metrics:
+    gdpGrowth: 5.2
+    debtToGdp: 64
+    inflation: 6.5
+    fiscalBalance: -6.9
+    currentAccount: -1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BLZ"
+  dataQuality: estimated
+
+BOL:
+  iso_a2: BO
+  iso_a3: BOL
+  name: Bolivia
+  region: South America
+  flag: 🇧🇴
+  rating: B-
+  outlook: negative
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 31
+    publicFinance: 29
+    external: 39
+    financialStability: 24
+    esgPolitical: 26
+  metrics:
+    gdpGrowth: 5.8
+    debtToGdp: 44
+    inflation: 8.1
+    fiscalBalance: -4.1
+    currentAccount: -6.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BOL"
+  dataQuality: estimated
+
+BRA:
+  iso_a2: BR
+  iso_a3: BRA
+  name: Brazil
+  region: South America
+  flag: 🇧🇷
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 49
+    publicFinance: 43
+    external: 47
+    financialStability: 54
+    esgPolitical: 60
+  metrics:
+    gdpGrowth: 2.9
+    debtToGdp: 87
+    inflation: 4.4
+    fiscalBalance: -7.1
+    currentAccount: -2.1
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BB with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BRA"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+BRN:
+  iso_a2: BN
+  iso_a3: BRN
+  name: Brunei
+  region: South-Eastern Asia
+  flag: 🇧🇳
+  rating: BBB+
+  outlook: positive
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 67
+    publicFinance: 71
+    external: 54
+    financialStability: 73
+    esgPolitical: 73
+  metrics:
+    gdpGrowth: 1.8
+    debtToGdp: 36
+    inflation: 5.3
+    fiscalBalance: -0.8
+    currentAccount: 0.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BRN"
+  dataQuality: estimated
+
+BTN:
+  iso_a2: BT
+  iso_a3: BTN
+  name: Bhutan
+  region: Southern Asia
+  flag: 🇧🇹
+  rating: BB-
+  outlook: positive
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 50
+    publicFinance: 44
+    external: 46
+    financialStability: 44
+    esgPolitical: 47
+  metrics:
+    gdpGrowth: 3.4
+    debtToGdp: 41
+    inflation: 9.8
+    fiscalBalance: -4.7
+    currentAccount: -5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BTN"
+  dataQuality: estimated
+
+BWA:
+  iso_a2: BW
+  iso_a3: BWA
+  name: Botswana
+  region: Southern Africa
+  flag: 🇧🇼
+  rating: BB-
+  outlook: stable
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 49
+    publicFinance: 54
+    external: 54
+    financialStability: 37
+    esgPolitical: 51
+  metrics:
+    gdpGrowth: 3.9
+    debtToGdp: 55
+    inflation: 3.3
+    fiscalBalance: -2
+    currentAccount: 0.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/BWA"
+  dataQuality: estimated
+
+CAF:
+  iso_a2: CF
+  iso_a3: CAF
+  name: Central African Republic
+  region: Middle Africa
+  flag: 🇨🇫
+  rating: CCC
+  outlook: negative
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 26
+    publicFinance: 31
+    external: 16
+    financialStability: 27
+    esgPolitical: 12
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 59
+    inflation: 9.9
+    fiscalBalance: -3.8
+    currentAccount: -4.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CAF"
+  dataQuality: estimated
+
+CAN:
+  iso_a2: CA
+  iso_a3: CAN
+  name: Canada
+  region: Northern America
+  flag: 🇨🇦
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 98
+    publicFinance: 98
+    external: 98
+    financialStability: 90
+    esgPolitical: 98
+  metrics:
+    gdpGrowth: 1.3
+    debtToGdp: 105
+    inflation: 2.4
+    fiscalBalance: -2
+    currentAccount: -0.6
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CAN"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+CHE:
+  iso_a2: CH
+  iso_a3: CHE
+  name: Switzerland
+  region: Western Europe
+  flag: 🇨🇭
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 98
+    publicFinance: 97
+    external: 98
+    financialStability: 91
+    esgPolitical: 98
+  metrics:
+    gdpGrowth: 1.3
+    debtToGdp: 38
+    inflation: 1.1
+    fiscalBalance: 0.4
+    currentAccount: 7.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CHE"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+CHL:
+  iso_a2: CL
+  iso_a3: CHL
+  name: Chile
+  region: South America
+  flag: 🇨🇱
+  rating: A
+  outlook: stable
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 71
+    publicFinance: 85
+    external: 85
+    financialStability: 80
+    esgPolitical: 81
+  metrics:
+    gdpGrowth: 2.3
+    debtToGdp: 41
+    inflation: 3.8
+    fiscalBalance: -2.5
+    currentAccount: -2
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CHL"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+CHN:
+  iso_a2: CN
+  iso_a3: CHN
+  name: China
+  region: Eastern Asia
+  flag: 🇨🇳
+  rating: A+
+  outlook: stable
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 77
+    publicFinance: 89
+    external: 79
+    financialStability: 77
+    esgPolitical: 72
+  metrics:
+    gdpGrowth: 5
+    debtToGdp: 88
+    inflation: 0.2
+    fiscalBalance: -7.1
+    currentAccount: 1.4
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CHN"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+CIV:
+  iso_a2: CI
+  iso_a3: CIV
+  name: Ivory Coast
+  region: Western Africa
+  flag: 🇨🇮
+  rating: B+
+  outlook: negative
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 44
+    publicFinance: 37
+    external: 43
+    financialStability: 31
+    esgPolitical: 39
+  metrics:
+    gdpGrowth: 2.2
+    debtToGdp: 77
+    inflation: 8.6
+    fiscalBalance: -5.5
+    currentAccount: -5.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CIV"
+  dataQuality: estimated
+
+CMR:
+  iso_a2: CM
+  iso_a3: CMR
+  name: Cameroon
+  region: Middle Africa
+  flag: 🇨🇲
+  rating: B+
+  outlook: stable
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 39
+    publicFinance: 30
+    external: 39
+    financialStability: 40
+    esgPolitical: 44
+  metrics:
+    gdpGrowth: 3.3
+    debtToGdp: 40
+    inflation: 10.2
+    fiscalBalance: -4.4
+    currentAccount: -3.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CMR"
+  dataQuality: estimated
+
+COD:
+  iso_a2: CD
+  iso_a3: COD
+  name: Democratic Republic of the Congo
+  region: Middle Africa
+  flag: 🇨🇩
+  rating: CCC-
+  outlook: stable
+  scoreIndex: 3
+  categories:
+    domesticEconomic: 5
+    publicFinance: 25
+    external: 12
+    financialStability: 7
+    esgPolitical: 12
+  metrics:
+    gdpGrowth: 5.9
+    debtToGdp: 75
+    inflation: 11.8
+    fiscalBalance: -6.5
+    currentAccount: -4.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/COD"
+  dataQuality: estimated
+
+COG:
+  iso_a2: CG
+  iso_a3: COG
+  name: Republic of the Congo
+  region: Middle Africa
+  flag: 🇨🇬
+  rating: B+
+  outlook: positive
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 48
+    publicFinance: 50
+    external: 31
+    financialStability: 30
+    esgPolitical: 33
+  metrics:
+    gdpGrowth: 4.2
+    debtToGdp: 73
+    inflation: 11
+    fiscalBalance: -6.1
+    currentAccount: -3.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/COG"
+  dataQuality: estimated
+
+COL:
+  iso_a2: CO
+  iso_a3: COL
+  name: Colombia
+  region: South America
+  flag: 🇨🇴
+  rating: BB+
+  outlook: negative
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 57
+    publicFinance: 55
+    external: 57
+    financialStability: 53
+    esgPolitical: 47
+  metrics:
+    gdpGrowth: 1.8
+    debtToGdp: 57
+    inflation: 6
+    fiscalBalance: -5.3
+    currentAccount: -2.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BB+ with a negative outlook by lead agency.
+      impact: negative
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/COL"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+CRI:
+  iso_a2: CR
+  iso_a3: CRI
+  name: Costa Rica
+  region: Central America
+  flag: 🇨🇷
+  rating: BB-
+  outlook: stable
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 50
+    publicFinance: 38
+    external: 56
+    financialStability: 52
+    esgPolitical: 44
+  metrics:
+    gdpGrowth: 3.6
+    debtToGdp: 51
+    inflation: 2.2
+    fiscalBalance: -2.7
+    currentAccount: -0.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CRI"
+  dataQuality: estimated
+
+CUB:
+  iso_a2: CU
+  iso_a3: CUB
+  name: Cuba
+  region: Caribbean
+  flag: 🇨🇺
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 41
+    publicFinance: 48
+    external: 47
+    financialStability: 47
+    esgPolitical: 61
+  metrics:
+    gdpGrowth: 4.9
+    debtToGdp: 68
+    inflation: 4.8
+    fiscalBalance: -5
+    currentAccount: -4.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CUB"
+  dataQuality: estimated
+
+CYN:
+  iso_a2: CY
+  iso_a3: CYN
+  name: Northern Cyprus
+  region: Western Asia
+  flag: 🇨🇾
+  rating: BB+
+  outlook: positive
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 60
+    publicFinance: 51
+    external: 60
+    financialStability: 60
+    esgPolitical: 61
+  metrics:
+    gdpGrowth: 2.7
+    debtToGdp: 40
+    inflation: 7.5
+    fiscalBalance: -3.2
+    currentAccount: -1.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CYN"
+  dataQuality: estimated
+
+CYP:
+  iso_a2: CY
+  iso_a3: CYP
+  name: Cyprus
+  region: Western Asia
+  flag: 🇨🇾
+  rating: A-
+  outlook: stable
+  scoreIndex: 14
+  categories:
+    domesticEconomic: 62
+    publicFinance: 80
+    external: 65
+    financialStability: 72
+    esgPolitical: 76
+  metrics:
+    gdpGrowth: 3.1
+    debtToGdp: 51
+    inflation: 0.6
+    fiscalBalance: 0
+    currentAccount: 3.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CYP"
+  dataQuality: estimated
+
+CZE:
+  iso_a2: CZ
+  iso_a3: CZE
+  name: Czechia
+  region: Eastern Europe
+  flag: 🇨🇿
+  rating: A+
+  outlook: negative
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 72
+    publicFinance: 71
+    external: 72
+    financialStability: 71
+    esgPolitical: 83
+  metrics:
+    gdpGrowth: 3.3
+    debtToGdp: 77
+    inflation: 1.4
+    fiscalBalance: -4.1
+    currentAccount: 2.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/CZE"
+  dataQuality: estimated
+
+DEU:
+  iso_a2: DE
+  iso_a3: DEU
+  name: Germany
+  region: Western Europe
+  flag: 🇩🇪
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 98
+    publicFinance: 91
+    external: 96
+    financialStability: 98
+    esgPolitical: 98
+  metrics:
+    gdpGrowth: 0
+    debtToGdp: 63
+    inflation: 2.4
+    fiscalBalance: -2
+    currentAccount: 5.9
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/DEU"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+DJI:
+  iso_a2: DJ
+  iso_a3: DJI
+  name: Djibouti
+  region: Eastern Africa
+  flag: 🇩🇯
+  rating: B
+  outlook: stable
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 29
+    publicFinance: 36
+    external: 43
+    financialStability: 34
+    esgPolitical: 27
+  metrics:
+    gdpGrowth: 4
+    debtToGdp: 71
+    inflation: 5.3
+    fiscalBalance: -5.9
+    currentAccount: -2.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/DJI"
+  dataQuality: estimated
+
+DNK:
+  iso_a2: DK
+  iso_a3: DNK
+  name: Denmark
+  region: Northern Europe
+  flag: 🇩🇰
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 89
+    publicFinance: 98
+    external: 97
+    financialStability: 98
+    esgPolitical: 95
+  metrics:
+    gdpGrowth: 2
+    debtToGdp: 30
+    inflation: 1.8
+    fiscalBalance: 2.5
+    currentAccount: 11
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/DNK"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+DOM:
+  iso_a2: DO
+  iso_a3: DOM
+  name: Dominican Republic
+  region: Caribbean
+  flag: 🇩🇴
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 40
+    publicFinance: 52
+    external: 45
+    financialStability: 45
+    esgPolitical: 47
+  metrics:
+    gdpGrowth: 2.4
+    debtToGdp: 36
+    inflation: 6.4
+    fiscalBalance: -3.9
+    currentAccount: -2.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/DOM"
+  dataQuality: estimated
+
+DZA:
+  iso_a2: DZ
+  iso_a3: DZA
+  name: Algeria
+  region: Northern Africa
+  flag: 🇩🇿
+  rating: BB+
+  outlook: negative
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 46
+    publicFinance: 49
+    external: 57
+    financialStability: 52
+    esgPolitical: 51
+  metrics:
+    gdpGrowth: 4.1
+    debtToGdp: 81
+    inflation: 3.7
+    fiscalBalance: -4
+    currentAccount: 0.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/DZA"
+  dataQuality: estimated
+
+ECU:
+  iso_a2: EC
+  iso_a3: ECU
+  name: Ecuador
+  region: South America
+  flag: 🇪🇨
+  rating: BB-
+  outlook: negative
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 54
+    publicFinance: 38
+    external: 47
+    financialStability: 42
+    esgPolitical: 36
+  metrics:
+    gdpGrowth: 4.5
+    debtToGdp: 36
+    inflation: 3.7
+    fiscalBalance: -4
+    currentAccount: 1.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ECU"
+  dataQuality: estimated
+
+EGY:
+  iso_a2: EG
+  iso_a3: EGY
+  name: Egypt
+  region: Northern Africa
+  flag: 🇪🇬
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 27
+    publicFinance: 20
+    external: 28
+    financialStability: 22
+    esgPolitical: 31
+  metrics:
+    gdpGrowth: 3.5
+    debtToGdp: 90
+    inflation: 26
+    fiscalBalance: -6
+    currentAccount: -2.4
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at B- with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/EGY"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+ERI:
+  iso_a2: ER
+  iso_a3: ERI
+  name: Eritrea
+  region: Eastern Africa
+  flag: 🇪🇷
+  rating: CCC
+  outlook: negative
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 16
+    publicFinance: 26
+    external: 11
+    financialStability: 23
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 4.1
+    debtToGdp: 53
+    inflation: 9.2
+    fiscalBalance: -4.2
+    currentAccount: -5.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ERI"
+  dataQuality: estimated
+
+ESP:
+  iso_a2: ES
+  iso_a3: ESP
+  name: Spain
+  region: Southern Europe
+  flag: 🇪🇸
+  rating: A
+  outlook: stable
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 72
+    publicFinance: 71
+    external: 80
+    financialStability: 71
+    esgPolitical: 70
+  metrics:
+    gdpGrowth: 2.7
+    debtToGdp: 105
+    inflation: 2.8
+    fiscalBalance: -3
+    currentAccount: 2.6
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ESP"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+EST:
+  iso_a2: EE
+  iso_a3: EST
+  name: Estonia
+  region: Northern Europe
+  flag: 🇪🇪
+  rating: A+
+  outlook: negative
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 80
+    publicFinance: 87
+    external: 76
+    financialStability: 76
+    esgPolitical: 84
+  metrics:
+    gdpGrowth: 1.2
+    debtToGdp: 52
+    inflation: 4.3
+    fiscalBalance: -2.2
+    currentAccount: -1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/EST"
+  dataQuality: estimated
+
+ETH:
+  iso_a2: ET
+  iso_a3: ETH
+  name: Ethiopia
+  region: Eastern Africa
+  flag: 🇪🇹
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 22
+    publicFinance: 30
+    external: 34
+    financialStability: 22
+    esgPolitical: 15
+  metrics:
+    gdpGrowth: 5.6
+    debtToGdp: 44
+    inflation: 10.8
+    fiscalBalance: -5.4
+    currentAccount: -3.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ETH"
+  dataQuality: estimated
+
+FIN:
+  iso_a2: FI
+  iso_a3: FIN
+  name: Finland
+  region: Northern Europe
+  flag: 🇫🇮
+  rating: AA+
+  outlook: stable
+  scoreIndex: 19
+  categories:
+    domesticEconomic: 98
+    publicFinance: 91
+    external: 98
+    financialStability: 89
+    esgPolitical: 98
+  metrics:
+    gdpGrowth: 0.5
+    debtToGdp: 78
+    inflation: 1.5
+    fiscalBalance: -3.5
+    currentAccount: -1.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/FIN"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+FJI:
+  iso_a2: FJ
+  iso_a3: FJI
+  name: Fiji
+  region: Melanesia
+  flag: 🇫🇯
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 36
+    publicFinance: 39
+    external: 35
+    financialStability: 28
+    esgPolitical: 20
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 79
+    inflation: 5.6
+    fiscalBalance: -5.7
+    currentAccount: -3.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/FJI"
+  dataQuality: estimated
+
+FLK:
+  iso_a2: FK
+  iso_a3: FLK
+  name: Falkland Islands
+  region: South America
+  flag: 🇫🇰
+  rating: A+
+  outlook: stable
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 84
+    publicFinance: 75
+    external: 83
+    financialStability: 91
+    esgPolitical: 82
+  metrics:
+    gdpGrowth: 2.9
+    debtToGdp: 45
+    inflation: 0.9
+    fiscalBalance: -2.7
+    currentAccount: 2.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/FLK"
+  dataQuality: estimated
+
+FRA:
+  iso_a2: FR
+  iso_a3: FRA
+  name: France
+  region: Western Europe
+  flag: 🇫🇷
+  rating: AA-
+  outlook: negative
+  scoreIndex: 17
+  categories:
+    domesticEconomic: 79
+    publicFinance: 89
+    external: 78
+    financialStability: 82
+    esgPolitical: 87
+  metrics:
+    gdpGrowth: 1.1
+    debtToGdp: 113
+    inflation: 2
+    fiscalBalance: -5.5
+    currentAccount: -0.7
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA- with a negative outlook by lead agency.
+      impact: negative
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/FRA"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+GAB:
+  iso_a2: GA
+  iso_a3: GAB
+  name: Gabon
+  region: Middle Africa
+  flag: 🇬🇦
+  rating: BBB-
+  outlook: positive
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 62
+    publicFinance: 64
+    external: 58
+    financialStability: 60
+    esgPolitical: 51
+  metrics:
+    gdpGrowth: 3.2
+    debtToGdp: 47
+    inflation: 2.3
+    fiscalBalance: -2.7
+    currentAccount: -0.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GAB"
+  dataQuality: estimated
+
+GBR:
+  iso_a2: GB
+  iso_a3: GBR
+  name: United Kingdom
+  region: Northern Europe
+  flag: 🇬🇧
+  rating: AA
+  outlook: stable
+  scoreIndex: 18
+  categories:
+    domesticEconomic: 89
+    publicFinance: 96
+    external: 83
+    financialStability: 86
+    esgPolitical: 91
+  metrics:
+    gdpGrowth: 1.1
+    debtToGdp: 101
+    inflation: 2.6
+    fiscalBalance: -4.5
+    currentAccount: -2.7
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GBR"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+GEO:
+  iso_a2: GE
+  iso_a3: GEO
+  name: Georgia
+  region: Western Asia
+  flag: 🇬🇪
+  rating: B+
+  outlook: negative
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 47
+    publicFinance: 43
+    external: 51
+    financialStability: 33
+    esgPolitical: 44
+  metrics:
+    gdpGrowth: 4.2
+    debtToGdp: 74
+    inflation: 5.6
+    fiscalBalance: -5.7
+    currentAccount: -3.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GEO"
+  dataQuality: estimated
+
+GHA:
+  iso_a2: GH
+  iso_a3: GHA
+  name: Ghana
+  region: Western Africa
+  flag: 🇬🇭
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 33
+    publicFinance: 35
+    external: 41
+    financialStability: 28
+    esgPolitical: 33
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 57
+    inflation: 6.3
+    fiscalBalance: -3.1
+    currentAccount: -3.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GHA"
+  dataQuality: estimated
+
+GIN:
+  iso_a2: GN
+  iso_a3: GIN
+  name: Guinea
+  region: Western Africa
+  flag: 🇬🇳
+  rating: CCC
+  outlook: stable
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 16
+    publicFinance: 10
+    external: 18
+    financialStability: 21
+    esgPolitical: 15
+  metrics:
+    gdpGrowth: 5.2
+    debtToGdp: 67
+    inflation: 10.9
+    fiscalBalance: -7.1
+    currentAccount: -5.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GIN"
+  dataQuality: estimated
+
+GMB:
+  iso_a2: GM
+  iso_a3: GMB
+  name: Gambia
+  region: Western Africa
+  flag: 🇬🇲
+  rating: B
+  outlook: stable
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 40
+    publicFinance: 39
+    external: 45
+    financialStability: 44
+    esgPolitical: 39
+  metrics:
+    gdpGrowth: 3.7
+    debtToGdp: 47
+    inflation: 14.5
+    fiscalBalance: -4.7
+    currentAccount: -7.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GMB"
+  dataQuality: estimated
+
+GNB:
+  iso_a2: GW
+  iso_a3: GNB
+  name: Guinea-Bissau
+  region: Western Africa
+  flag: 🇬🇼
+  rating: CCC
+  outlook: positive
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 10
+    publicFinance: 12
+    external: 26
+    financialStability: 20
+    esgPolitical: 29
+  metrics:
+    gdpGrowth: 3
+    debtToGdp: 61
+    inflation: 13.5
+    fiscalBalance: -3.6
+    currentAccount: -7.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GNB"
+  dataQuality: estimated
+
+GNQ:
+  iso_a2: GQ
+  iso_a3: GNQ
+  name: Equatorial Guinea
+  region: Middle Africa
+  flag: 🇬🇶
+  rating: BBB
+  outlook: stable
+  scoreIndex: 12
+  categories:
+    domesticEconomic: 50
+    publicFinance: 66
+    external: 63
+    financialStability: 71
+    esgPolitical: 69
+  metrics:
+    gdpGrowth: 3.3
+    debtToGdp: 53
+    inflation: 0.8
+    fiscalBalance: 0.1
+    currentAccount: 3.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GNQ"
+  dataQuality: estimated
+
+GRC:
+  iso_a2: GR
+  iso_a3: GRC
+  name: Greece
+  region: Southern Europe
+  flag: 🇬🇷
+  rating: BBB-
+  outlook: stable
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 64
+    publicFinance: 47
+    external: 57
+    financialStability: 47
+    esgPolitical: 60
+  metrics:
+    gdpGrowth: 2.1
+    debtToGdp: 154
+    inflation: 2.7
+    fiscalBalance: -1
+    currentAccount: -6.3
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BBB- with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GRC"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+GRL:
+  iso_a2: GL
+  iso_a3: GRL
+  name: Greenland
+  region: Northern America
+  flag: 🇬🇱
+  rating: A
+  outlook: stable
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 66
+    publicFinance: 84
+    external: 85
+    financialStability: 64
+    esgPolitical: 65
+  metrics:
+    gdpGrowth: 1.3
+    debtToGdp: 51
+    inflation: 3.8
+    fiscalBalance: -0.1
+    currentAccount: -0.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GRL"
+  dataQuality: estimated
+
+GTM:
+  iso_a2: GT
+  iso_a3: GTM
+  name: Guatemala
+  region: Central America
+  flag: 🇬🇹
+  rating: BB-
+  outlook: negative
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 41
+    publicFinance: 38
+    external: 48
+    financialStability: 39
+    esgPolitical: 38
+  metrics:
+    gdpGrowth: 3.1
+    debtToGdp: 37
+    inflation: 9.9
+    fiscalBalance: -4.6
+    currentAccount: -5.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GTM"
+  dataQuality: estimated
+
+GUY:
+  iso_a2: GY
+  iso_a3: GUY
+  name: Guyana
+  region: South America
+  flag: 🇬🇾
+  rating: B
+  outlook: positive
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 35
+    publicFinance: 33
+    external: 41
+    financialStability: 37
+    esgPolitical: 28
+  metrics:
+    gdpGrowth: 5.9
+    debtToGdp: 45
+    inflation: 7.5
+    fiscalBalance: -4.4
+    currentAccount: -1.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/GUY"
+  dataQuality: estimated
+
+HND:
+  iso_a2: HN
+  iso_a3: HND
+  name: Honduras
+  region: Central America
+  flag: 🇭🇳
+  rating: B
+  outlook: negative
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 35
+    publicFinance: 34
+    external: 33
+    financialStability: 38
+    esgPolitical: 28
+  metrics:
+    gdpGrowth: 2.2
+    debtToGdp: 77
+    inflation: 8.7
+    fiscalBalance: -5.5
+    currentAccount: -5.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/HND"
+  dataQuality: estimated
+
+HRV:
+  iso_a2: HR
+  iso_a3: HRV
+  name: Croatia
+  region: Southern Europe
+  flag: 🇭🇷
+  rating: BBB+
+  outlook: stable
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 60
+    publicFinance: 56
+    external: 55
+    financialStability: 59
+    esgPolitical: 67
+  metrics:
+    gdpGrowth: 0.6
+    debtToGdp: 70
+    inflation: 2.8
+    fiscalBalance: -2.5
+    currentAccount: -0.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/HRV"
+  dataQuality: estimated
+
+HTI:
+  iso_a2: HT
+  iso_a3: HTI
+  name: Haiti
+  region: Caribbean
+  flag: 🇭🇹
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 40
+    publicFinance: 21
+    external: 39
+    financialStability: 30
+    esgPolitical: 20
+  metrics:
+    gdpGrowth: 5.2
+    debtToGdp: 88
+    inflation: 10.1
+    fiscalBalance: -5.8
+    currentAccount: -5.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/HTI"
+  dataQuality: estimated
+
+HUN:
+  iso_a2: HU
+  iso_a3: HUN
+  name: Hungary
+  region: Eastern Europe
+  flag: 🇭🇺
+  rating: AA-
+  outlook: negative
+  scoreIndex: 17
+  categories:
+    domesticEconomic: 75
+    publicFinance: 93
+    external: 86
+    financialStability: 86
+    esgPolitical: 90
+  metrics:
+    gdpGrowth: -0.1
+    debtToGdp: 57
+    inflation: 2.3
+    fiscalBalance: -1.8
+    currentAccount: 3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/HUN"
+  dataQuality: estimated
+
+IDN:
+  iso_a2: ID
+  iso_a3: IDN
+  name: Indonesia
+  region: South-Eastern Asia
+  flag: 🇮🇩
+  rating: BBB
+  outlook: stable
+  scoreIndex: 12
+  categories:
+    domesticEconomic: 49
+    publicFinance: 65
+    external: 50
+    financialStability: 61
+    esgPolitical: 66
+  metrics:
+    gdpGrowth: 5
+    debtToGdp: 39
+    inflation: 2.5
+    fiscalBalance: -2.3
+    currentAccount: -0.8
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BBB with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/IDN"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+IND:
+  iso_a2: IN
+  iso_a3: IND
+  name: India
+  region: Southern Asia
+  flag: 🇮🇳
+  rating: BBB
+  outlook: stable
+  scoreIndex: 12
+  categories:
+    domesticEconomic: 61
+    publicFinance: 64
+    external: 52
+    financialStability: 53
+    esgPolitical: 54
+  metrics:
+    gdpGrowth: 6.5
+    debtToGdp: 83
+    inflation: 4.6
+    fiscalBalance: -7.8
+    currentAccount: -1.1
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BBB with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/IND"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+IRL:
+  iso_a2: IE
+  iso_a3: IRL
+  name: Ireland
+  region: Northern Europe
+  flag: 🇮🇪
+  rating: AA
+  outlook: stable
+  scoreIndex: 18
+  categories:
+    domesticEconomic: 90
+    publicFinance: 92
+    external: 89
+    financialStability: 93
+    esgPolitical: 85
+  metrics:
+    gdpGrowth: 2.5
+    debtToGdp: 43
+    inflation: 1.6
+    fiscalBalance: 1.5
+    currentAccount: 8.6
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/IRL"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+IRN:
+  iso_a2: IR
+  iso_a3: IRN
+  name: Iran
+  region: Southern Asia
+  flag: 🇮🇷
+  rating: BB-
+  outlook: negative
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 37
+    publicFinance: 38
+    external: 51
+    financialStability: 47
+    esgPolitical: 48
+  metrics:
+    gdpGrowth: 3.7
+    debtToGdp: 76
+    inflation: 2.5
+    fiscalBalance: -4.8
+    currentAccount: -0.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/IRN"
+  dataQuality: estimated
+
+IRQ:
+  iso_a2: IQ
+  iso_a3: IRQ
+  name: Iraq
+  region: Western Asia
+  flag: 🇮🇶
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 25
+    publicFinance: 27
+    external: 33
+    financialStability: 37
+    esgPolitical: 19
+  metrics:
+    gdpGrowth: 3.7
+    debtToGdp: 46
+    inflation: 10.9
+    fiscalBalance: -3.9
+    currentAccount: -4.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/IRQ"
+  dataQuality: estimated
+
+ISL:
+  iso_a2: IS
+  iso_a3: ISL
+  name: Iceland
+  region: Northern Europe
+  flag: 🇮🇸
+  rating: A+
+  outlook: positive
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 89
+    publicFinance: 80
+    external: 78
+    financialStability: 73
+    esgPolitical: 78
+  metrics:
+    gdpGrowth: 0.4
+    debtToGdp: 91
+    inflation: 3.1
+    fiscalBalance: -3
+    currentAccount: -1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ISL"
+  dataQuality: estimated
+
+ISR:
+  iso_a2: IL
+  iso_a3: ISR
+  name: Israel
+  region: Western Asia
+  flag: 🇮🇱
+  rating: A
+  outlook: negative
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 65
+    publicFinance: 71
+    external: 67
+    financialStability: 86
+    esgPolitical: 75
+  metrics:
+    gdpGrowth: 1
+    debtToGdp: 69
+    inflation: 3
+    fiscalBalance: -6.8
+    currentAccount: 4
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A with a negative outlook by lead agency.
+      impact: negative
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ISR"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+ITA:
+  iso_a2: IT
+  iso_a3: ITA
+  name: Italy
+  region: Southern Europe
+  flag: 🇮🇹
+  rating: BBB+
+  outlook: stable
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 57
+    publicFinance: 73
+    external: 72
+    financialStability: 56
+    esgPolitical: 74
+  metrics:
+    gdpGrowth: 0.7
+    debtToGdp: 137
+    inflation: 1.1
+    fiscalBalance: -3.8
+    currentAccount: 1.1
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BBB+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ITA"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+JAM:
+  iso_a2: JM
+  iso_a3: JAM
+  name: Jamaica
+  region: Caribbean
+  flag: 🇯🇲
+  rating: BB+
+  outlook: positive
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 54
+    publicFinance: 50
+    external: 59
+    financialStability: 40
+    esgPolitical: 50
+  metrics:
+    gdpGrowth: 3
+    debtToGdp: 44
+    inflation: 7.3
+    fiscalBalance: -3.4
+    currentAccount: -1.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/JAM"
+  dataQuality: estimated
+
+JOR:
+  iso_a2: JO
+  iso_a3: JOR
+  name: Jordan
+  region: Western Asia
+  flag: 🇯🇴
+  rating: B+
+  outlook: negative
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 48
+    publicFinance: 31
+    external: 48
+    financialStability: 48
+    esgPolitical: 36
+  metrics:
+    gdpGrowth: 1.5
+    debtToGdp: 48
+    inflation: 5.1
+    fiscalBalance: -3
+    currentAccount: -3.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/JOR"
+  dataQuality: estimated
+
+JPN:
+  iso_a2: JP
+  iso_a3: JPN
+  name: Japan
+  region: Eastern Asia
+  flag: 🇯🇵
+  rating: A+
+  outlook: stable
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 85
+    publicFinance: 82
+    external: 90
+    financialStability: 85
+    esgPolitical: 81
+  metrics:
+    gdpGrowth: 0.9
+    debtToGdp: 251
+    inflation: 2.7
+    fiscalBalance: -4.2
+    currentAccount: 3.6
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/JPN"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+KAZ:
+  iso_a2: KZ
+  iso_a3: KAZ
+  name: Kazakhstan
+  region: Central Asia
+  flag: 🇰🇿
+  rating: BBB-
+  outlook: stable
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 49
+    publicFinance: 60
+    external: 57
+    financialStability: 54
+    esgPolitical: 62
+  metrics:
+    gdpGrowth: 5
+    debtToGdp: 69
+    inflation: 5
+    fiscalBalance: -4.9
+    currentAccount: 0.6
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/KAZ"
+  dataQuality: estimated
+
+KEN:
+  iso_a2: KE
+  iso_a3: KEN
+  name: Kenya
+  region: Eastern Africa
+  flag: 🇰🇪
+  rating: CCC+
+  outlook: negative
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 17
+    publicFinance: 30
+    external: 30
+    financialStability: 31
+    esgPolitical: 26
+  metrics:
+    gdpGrowth: 4.7
+    debtToGdp: 60
+    inflation: 10.1
+    fiscalBalance: -3.7
+    currentAccount: -5.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/KEN"
+  dataQuality: estimated
+
+KGZ:
+  iso_a2: KG
+  iso_a3: KGZ
+  name: Kyrgyzstan
+  region: Central Asia
+  flag: 🇰🇬
+  rating: B-
+  outlook: positive
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 28
+    publicFinance: 32
+    external: 32
+    financialStability: 28
+    esgPolitical: 34
+  metrics:
+    gdpGrowth: 4.9
+    debtToGdp: 63
+    inflation: 9.8
+    fiscalBalance: -3.9
+    currentAccount: -5.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/KGZ"
+  dataQuality: estimated
+
+KHM:
+  iso_a2: KH
+  iso_a3: KHM
+  name: Cambodia
+  region: South-Eastern Asia
+  flag: 🇰🇭
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 27
+    publicFinance: 23
+    external: 29
+    financialStability: 31
+    esgPolitical: 14
+  metrics:
+    gdpGrowth: 5.3
+    debtToGdp: 67
+    inflation: 10.9
+    fiscalBalance: -7.1
+    currentAccount: -5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/KHM"
+  dataQuality: estimated
+
+KOR:
+  iso_a2: KR
+  iso_a3: KOR
+  name: South Korea
+  region: Eastern Asia
+  flag: 🇰🇷
+  rating: AA
+  outlook: stable
+  scoreIndex: 18
+  categories:
+    domesticEconomic: 98
+    publicFinance: 97
+    external: 82
+    financialStability: 96
+    esgPolitical: 90
+  metrics:
+    gdpGrowth: 2.2
+    debtToGdp: 56
+    inflation: 2.3
+    fiscalBalance: -1
+    currentAccount: 2.4
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/KOR"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+KOS:
+  iso_a2: XK
+  iso_a3: KOS
+  name: Kosovo
+  region: Southern Europe
+  flag: 🇽🇰
+  rating: B+
+  outlook: positive
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 39
+    publicFinance: 50
+    external: 38
+    financialStability: 37
+    esgPolitical: 41
+  metrics:
+    gdpGrowth: 3.8
+    debtToGdp: 69
+    inflation: 10.4
+    fiscalBalance: -6.5
+    currentAccount: -3.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/KOS"
+  dataQuality: estimated
+
+KWT:
+  iso_a2: KW
+  iso_a3: KWT
+  name: Kuwait
+  region: Western Asia
+  flag: 🇰🇼
+  rating: A-
+  outlook: negative
+  scoreIndex: 14
+  categories:
+    domesticEconomic: 81
+    publicFinance: 74
+    external: 72
+    financialStability: 76
+    esgPolitical: 69
+  metrics:
+    gdpGrowth: 1.4
+    debtToGdp: 30
+    inflation: 4.7
+    fiscalBalance: -1.3
+    currentAccount: -0.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/KWT"
+  dataQuality: estimated
+
+LAO:
+  iso_a2: LA
+  iso_a3: LAO
+  name: Laos
+  region: South-Eastern Asia
+  flag: 🇱🇦
+  rating: B-
+  outlook: positive
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 29
+    publicFinance: 23
+    external: 26
+    financialStability: 33
+    esgPolitical: 40
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 56
+    inflation: 5.6
+    fiscalBalance: -3.5
+    currentAccount: -2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LAO"
+  dataQuality: estimated
+
+LBN:
+  iso_a2: LB
+  iso_a3: LBN
+  name: Lebanon
+  region: Western Asia
+  flag: 🇱🇧
+  rating: BBB-
+  outlook: stable
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 47
+    publicFinance: 44
+    external: 44
+    financialStability: 62
+    esgPolitical: 53
+  metrics:
+    gdpGrowth: 2.5
+    debtToGdp: 38
+    inflation: 6.7
+    fiscalBalance: -3.8
+    currentAccount: -3.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LBN"
+  dataQuality: estimated
+
+LBR:
+  iso_a2: LR
+  iso_a3: LBR
+  name: Liberia
+  region: Western Africa
+  flag: 🇱🇷
+  rating: B-
+  outlook: positive
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 30
+    publicFinance: 35
+    external: 36
+    financialStability: 24
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 2.9
+    debtToGdp: 88
+    inflation: 12.8
+    fiscalBalance: -5.9
+    currentAccount: -7.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LBR"
+  dataQuality: estimated
+
+LBY:
+  iso_a2: LY
+  iso_a3: LBY
+  name: Libya
+  region: Northern Africa
+  flag: 🇱🇾
+  rating: BB+
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 49
+    publicFinance: 54
+    external: 40
+    financialStability: 48
+    esgPolitical: 52
+  metrics:
+    gdpGrowth: 2.7
+    debtToGdp: 63
+    inflation: 7.6
+    fiscalBalance: -5.4
+    currentAccount: -1.6
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LBY"
+  dataQuality: estimated
+
+LKA:
+  iso_a2: LK
+  iso_a3: LKA
+  name: Sri Lanka
+  region: Southern Asia
+  flag: 🇱🇰
+  rating: B
+  outlook: stable
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 34
+    publicFinance: 27
+    external: 26
+    financialStability: 46
+    esgPolitical: 28
+  metrics:
+    gdpGrowth: 4.7
+    debtToGdp: 58
+    inflation: 5.8
+    fiscalBalance: -3.4
+    currentAccount: -1.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LKA"
+  dataQuality: estimated
+
+LSO:
+  iso_a2: LS
+  iso_a3: LSO
+  name: Lesotho
+  region: Southern Africa
+  flag: 🇱🇸
+  rating: B
+  outlook: stable
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 43
+    publicFinance: 41
+    external: 26
+    financialStability: 24
+    esgPolitical: 26
+  metrics:
+    gdpGrowth: 2.7
+    debtToGdp: 83
+    inflation: 9.4
+    fiscalBalance: -4.9
+    currentAccount: -4.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LSO"
+  dataQuality: estimated
+
+LTU:
+  iso_a2: LT
+  iso_a3: LTU
+  name: Lithuania
+  region: Northern Europe
+  flag: 🇱🇹
+  rating: BB+
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 49
+    publicFinance: 55
+    external: 48
+    financialStability: 54
+    esgPolitical: 48
+  metrics:
+    gdpGrowth: 1.5
+    debtToGdp: 48
+    inflation: 5.2
+    fiscalBalance: -3
+    currentAccount: 1.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LTU"
+  dataQuality: estimated
+
+LUX:
+  iso_a2: LU
+  iso_a3: LUX
+  name: Luxembourg
+  region: Western Europe
+  flag: 🇱🇺
+  rating: A
+  outlook: stable
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 85
+    publicFinance: 65
+    external: 73
+    financialStability: 73
+    esgPolitical: 65
+  metrics:
+    gdpGrowth: 0.3
+    debtToGdp: 63
+    inflation: 3.6
+    fiscalBalance: -0.9
+    currentAccount: -1.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LUX"
+  dataQuality: estimated
+
+LVA:
+  iso_a2: LV
+  iso_a3: LVA
+  name: Latvia
+  region: Northern Europe
+  flag: 🇱🇻
+  rating: BB+
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 54
+    publicFinance: 55
+    external: 39
+    financialStability: 51
+    esgPolitical: 59
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 36
+    inflation: 4.4
+    fiscalBalance: -3.5
+    currentAccount: -0.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/LVA"
+  dataQuality: estimated
+
+MAR:
+  iso_a2: MA
+  iso_a3: MAR
+  name: Morocco
+  region: Northern Africa
+  flag: 🇲🇦
+  rating: B+
+  outlook: positive
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 40
+    publicFinance: 30
+    external: 30
+    financialStability: 36
+    esgPolitical: 38
+  metrics:
+    gdpGrowth: 3.4
+    debtToGdp: 41
+    inflation: 9.8
+    fiscalBalance: -4.7
+    currentAccount: -3.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MAR"
+  dataQuality: estimated
+
+MDA:
+  iso_a2: MD
+  iso_a3: MDA
+  name: Moldova
+  region: Eastern Europe
+  flag: 🇲🇩
+  rating: B+
+  outlook: positive
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 38
+    publicFinance: 34
+    external: 32
+    financialStability: 37
+    esgPolitical: 42
+  metrics:
+    gdpGrowth: 3.8
+    debtToGdp: 46
+    inflation: 10.3
+    fiscalBalance: -4.4
+    currentAccount: -4.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MDA"
+  dataQuality: estimated
+
+MDG:
+  iso_a2: MG
+  iso_a3: MDG
+  name: Madagascar
+  region: Eastern Africa
+  flag: 🇲🇬
+  rating: B
+  outlook: positive
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 30
+    publicFinance: 30
+    external: 30
+    financialStability: 46
+    esgPolitical: 32
+  metrics:
+    gdpGrowth: 3.7
+    debtToGdp: 48
+    inflation: 14.6
+    fiscalBalance: -4.7
+    currentAccount: -7.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MDG"
+  dataQuality: estimated
+
+MEX:
+  iso_a2: MX
+  iso_a3: MEX
+  name: Mexico
+  region: Central America
+  flag: 🇲🇽
+  rating: BBB
+  outlook: stable
+  scoreIndex: 12
+  categories:
+    domesticEconomic: 65
+    publicFinance: 70
+    external: 69
+    financialStability: 67
+    esgPolitical: 52
+  metrics:
+    gdpGrowth: 1.5
+    debtToGdp: 58
+    inflation: 4.5
+    fiscalBalance: -5
+    currentAccount: -0.3
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BBB with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MEX"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+MKD:
+  iso_a2: MK
+  iso_a3: MKD
+  name: Macedonia
+  region: Southern Europe
+  flag: 🇲🇰
+  rating: BB+
+  outlook: negative
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 43
+    publicFinance: 59
+    external: 59
+    financialStability: 47
+    esgPolitical: 45
+  metrics:
+    gdpGrowth: 1.4
+    debtToGdp: 74
+    inflation: 4.9
+    fiscalBalance: -4.9
+    currentAccount: 1.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MKD"
+  dataQuality: estimated
+
+MLI:
+  iso_a2: ML
+  iso_a3: MLI
+  name: Mali
+  region: Western Africa
+  flag: 🇲🇱
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 25
+    publicFinance: 33
+    external: 33
+    financialStability: 37
+    esgPolitical: 22
+  metrics:
+    gdpGrowth: 3
+    debtToGdp: 89
+    inflation: 13
+    fiscalBalance: -5.8
+    currentAccount: -8.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MLI"
+  dataQuality: estimated
+
+MMR:
+  iso_a2: MM
+  iso_a3: MMR
+  name: Myanmar
+  region: South-Eastern Asia
+  flag: 🇲🇲
+  rating: CCC
+  outlook: stable
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 27
+    publicFinance: 22
+    external: 13
+    financialStability: 10
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 2.4
+    debtToGdp: 81
+    inflation: 12
+    fiscalBalance: -6.4
+    currentAccount: -3.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MMR"
+  dataQuality: estimated
+
+MNE:
+  iso_a2: ME
+  iso_a3: MNE
+  name: Montenegro
+  region: Southern Europe
+  flag: 🇲🇪
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 42
+    publicFinance: 42
+    external: 43
+    financialStability: 45
+    esgPolitical: 59
+  metrics:
+    gdpGrowth: 2.7
+    debtToGdp: 40
+    inflation: 7.5
+    fiscalBalance: -3.2
+    currentAccount: -1.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MNE"
+  dataQuality: estimated
+
+MNG:
+  iso_a2: MN
+  iso_a3: MNG
+  name: Mongolia
+  region: Eastern Asia
+  flag: 🇲🇳
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 21
+    publicFinance: 29
+    external: 26
+    financialStability: 16
+    esgPolitical: 20
+  metrics:
+    gdpGrowth: 4.7
+    debtToGdp: 58
+    inflation: 5.8
+    fiscalBalance: -3.4
+    currentAccount: -3.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MNG"
+  dataQuality: estimated
+
+MOZ:
+  iso_a2: MZ
+  iso_a3: MOZ
+  name: Mozambique
+  region: Eastern Africa
+  flag: 🇲🇿
+  rating: CCC+
+  outlook: positive
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 32
+    publicFinance: 17
+    external: 20
+    financialStability: 20
+    esgPolitical: 29
+  metrics:
+    gdpGrowth: 4.8
+    debtToGdp: 61
+    inflation: 10.2
+    fiscalBalance: -3.6
+    currentAccount: -4.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MOZ"
+  dataQuality: estimated
+
+MRT:
+  iso_a2: MR
+  iso_a3: MRT
+  name: Mauritania
+  region: Western Africa
+  flag: 🇲🇷
+  rating: CCC
+  outlook: stable
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 25
+    publicFinance: 11
+    external: 31
+    financialStability: 22
+    esgPolitical: 15
+  metrics:
+    gdpGrowth: 5.6
+    debtToGdp: 44
+    inflation: 11.5
+    fiscalBalance: -5
+    currentAccount: -3.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MRT"
+  dataQuality: estimated
+
+MWI:
+  iso_a2: MW
+  iso_a3: MWI
+  name: Malawi
+  region: Eastern Africa
+  flag: 🇲🇼
+  rating: B-
+  outlook: negative
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 28
+    publicFinance: 41
+    external: 23
+    financialStability: 35
+    esgPolitical: 30
+  metrics:
+    gdpGrowth: 5.2
+    debtToGdp: 89
+    inflation: 10.2
+    fiscalBalance: -5.8
+    currentAccount: -3.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MWI"
+  dataQuality: estimated
+
+MYS:
+  iso_a2: MY
+  iso_a3: MYS
+  name: Malaysia
+  region: South-Eastern Asia
+  flag: 🇲🇾
+  rating: A-
+  outlook: stable
+  scoreIndex: 14
+  categories:
+    domesticEconomic: 68
+    publicFinance: 79
+    external: 65
+    financialStability: 76
+    esgPolitical: 60
+  metrics:
+    gdpGrowth: 4.5
+    debtToGdp: 64
+    inflation: 2
+    fiscalBalance: -4
+    currentAccount: 2.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A- with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/MYS"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+NAM:
+  iso_a2: NA
+  iso_a3: NAM
+  name: Namibia
+  region: Southern Africa
+  flag: 🇳🇦
+  rating: BB+
+  outlook: negative
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 55
+    publicFinance: 42
+    external: 55
+    financialStability: 51
+    esgPolitical: 54
+  metrics:
+    gdpGrowth: 3.9
+    debtToGdp: 56
+    inflation: 2.8
+    fiscalBalance: -2.4
+    currentAccount: -1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NAM"
+  dataQuality: estimated
+
+NCL:
+  iso_a2: NC
+  iso_a3: NCL
+  name: New Caledonia
+  region: Melanesia
+  flag: 🇳🇨
+  rating: BBB+
+  outlook: stable
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 60
+    publicFinance: 65
+    external: 57
+    financialStability: 67
+    esgPolitical: 69
+  metrics:
+    gdpGrowth: 2.4
+    debtToGdp: 65
+    inflation: 0.1
+    fiscalBalance: -2.5
+    currentAccount: 2.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NCL"
+  dataQuality: estimated
+
+NER:
+  iso_a2: NE
+  iso_a3: NER
+  name: Niger
+  region: Western Africa
+  flag: 🇳🇪
+  rating: CCC
+  outlook: negative
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 23
+    publicFinance: 14
+    external: 25
+    financialStability: 15
+    esgPolitical: 22
+  metrics:
+    gdpGrowth: 3.9
+    debtToGdp: 72
+    inflation: 14.8
+    fiscalBalance: -6.7
+    currentAccount: -7.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NER"
+  dataQuality: estimated
+
+NGA:
+  iso_a2: NG
+  iso_a3: NGA
+  name: Nigeria
+  region: Western Africa
+  flag: 🇳🇬
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 20
+    publicFinance: 24
+    external: 31
+    financialStability: 32
+    esgPolitical: 38
+  metrics:
+    gdpGrowth: 3.1
+    debtToGdp: 47
+    inflation: 24
+    fiscalBalance: -4.4
+    currentAccount: 0.7
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at B- with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NGA"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+NIC:
+  iso_a2: NI
+  iso_a3: NIC
+  name: Nicaragua
+  region: Central America
+  flag: 🇳🇮
+  rating: B
+  outlook: stable
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 45
+    publicFinance: 41
+    external: 35
+    financialStability: 42
+    esgPolitical: 42
+  metrics:
+    gdpGrowth: 4.8
+    debtToGdp: 58
+    inflation: 6.5
+    fiscalBalance: -6.9
+    currentAccount: -3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NIC"
+  dataQuality: estimated
+
+NLD:
+  iso_a2: NL
+  iso_a3: NLD
+  name: Netherlands
+  region: Western Europe
+  flag: 🇳🇱
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 98
+    publicFinance: 98
+    external: 98
+    financialStability: 98
+    esgPolitical: 97
+  metrics:
+    gdpGrowth: 0.8
+    debtToGdp: 43
+    inflation: 3
+    fiscalBalance: -2
+    currentAccount: 9
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NLD"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+NOR:
+  iso_a2: NO
+  iso_a3: NOR
+  name: Norway
+  region: Northern Europe
+  flag: 🇳🇴
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 97
+    publicFinance: 96
+    external: 98
+    financialStability: 98
+    esgPolitical: 92
+  metrics:
+    gdpGrowth: 1.5
+    debtToGdp: 42
+    inflation: 3
+    fiscalBalance: 12
+    currentAccount: 17
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NOR"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+NPL:
+  iso_a2: NP
+  iso_a3: NPL
+  name: Nepal
+  region: Southern Asia
+  flag: 🇳🇵
+  rating: CCC
+  outlook: negative
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 28
+    publicFinance: 30
+    external: 10
+    financialStability: 26
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 2.4
+    debtToGdp: 81
+    inflation: 12.5
+    fiscalBalance: -6
+    currentAccount: -8.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NPL"
+  dataQuality: estimated
+
+NZL:
+  iso_a2: NZ
+  iso_a3: NZL
+  name: New Zealand
+  region: Australia and New Zealand
+  flag: 🇳🇿
+  rating: AA+
+  outlook: stable
+  scoreIndex: 19
+  categories:
+    domesticEconomic: 92
+    publicFinance: 87
+    external: 85
+    financialStability: 86
+    esgPolitical: 88
+  metrics:
+    gdpGrowth: 1
+    debtToGdp: 46
+    inflation: 2.5
+    fiscalBalance: -3
+    currentAccount: -6.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/NZL"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+OMN:
+  iso_a2: OM
+  iso_a3: OMN
+  name: Oman
+  region: Western Asia
+  flag: 🇴🇲
+  rating: A
+  outlook: negative
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 77
+    publicFinance: 72
+    external: 73
+    financialStability: 69
+    esgPolitical: 83
+  metrics:
+    gdpGrowth: 0.5
+    debtToGdp: 69
+    inflation: 3.3
+    fiscalBalance: -2.2
+    currentAccount: -0.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/OMN"
+  dataQuality: estimated
+
+PAK:
+  iso_a2: PK
+  iso_a3: PAK
+  name: Pakistan
+  region: Southern Asia
+  flag: 🇵🇰
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 23
+    publicFinance: 31
+    external: 22
+    financialStability: 20
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 2.5
+    debtToGdp: 71
+    inflation: 12
+    fiscalBalance: -6.8
+    currentAccount: -0.6
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at CCC+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PAK"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+PAN:
+  iso_a2: PA
+  iso_a3: PAN
+  name: Panama
+  region: Central America
+  flag: 🇵🇦
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 43
+    publicFinance: 57
+    external: 45
+    financialStability: 55
+    esgPolitical: 49
+  metrics:
+    gdpGrowth: 3.2
+    debtToGdp: 69
+    inflation: 7.7
+    fiscalBalance: -5.3
+    currentAccount: -0.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PAN"
+  dataQuality: estimated
+
+PER:
+  iso_a2: PE
+  iso_a3: PER
+  name: Peru
+  region: South America
+  flag: 🇵🇪
+  rating: BB-
+  outlook: negative
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 50
+    publicFinance: 51
+    external: 44
+    financialStability: 47
+    esgPolitical: 54
+  metrics:
+    gdpGrowth: 2.3
+    debtToGdp: 58
+    inflation: 6.4
+    fiscalBalance: -2.2
+    currentAccount: -2.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PER"
+  dataQuality: estimated
+
+PHL:
+  iso_a2: PH
+  iso_a3: PHL
+  name: Philippines
+  region: South-Eastern Asia
+  flag: 🇵🇭
+  rating: BBB+
+  outlook: stable
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 54
+    publicFinance: 69
+    external: 67
+    financialStability: 62
+    esgPolitical: 70
+  metrics:
+    gdpGrowth: 5.8
+    debtToGdp: 57
+    inflation: 3.2
+    fiscalBalance: -5.5
+    currentAccount: -2.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BBB+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PHL"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+PNG:
+  iso_a2: PG
+  iso_a3: PNG
+  name: Papua New Guinea
+  region: Melanesia
+  flag: 🇵🇬
+  rating: BB-
+  outlook: positive
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 45
+    publicFinance: 50
+    external: 36
+    financialStability: 49
+    esgPolitical: 37
+  metrics:
+    gdpGrowth: 2.1
+    debtToGdp: 48
+    inflation: 7.9
+    fiscalBalance: -4.2
+    currentAccount: -5.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PNG"
+  dataQuality: estimated
+
+POL:
+  iso_a2: PL
+  iso_a3: POL
+  name: Poland
+  region: Eastern Europe
+  flag: 🇵🇱
+  rating: A-
+  outlook: stable
+  scoreIndex: 14
+  categories:
+    domesticEconomic: 59
+    publicFinance: 63
+    external: 81
+    financialStability: 61
+    esgPolitical: 73
+  metrics:
+    gdpGrowth: 3
+    debtToGdp: 55
+    inflation: 3.7
+    fiscalBalance: -5.5
+    currentAccount: 1
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A- with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/POL"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+PRI:
+  iso_a2: PR
+  iso_a3: PRI
+  name: Puerto Rico
+  region: Caribbean
+  flag: 🇵🇷
+  rating: BBB
+  outlook: negative
+  scoreIndex: 12
+  categories:
+    domesticEconomic: 55
+    publicFinance: 63
+    external: 64
+    financialStability: 67
+    esgPolitical: 70
+  metrics:
+    gdpGrowth: 1.8
+    debtToGdp: 57
+    inflation: 5.2
+    fiscalBalance: -3.1
+    currentAccount: 0.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PRI"
+  dataQuality: estimated
+
+PRK:
+  iso_a2: KP
+  iso_a3: PRK
+  name: North Korea
+  region: Eastern Asia
+  flag: 🇰🇵
+  rating: CCC
+  outlook: stable
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 16
+    publicFinance: 18
+    external: 18
+    financialStability: 10
+    esgPolitical: 26
+  metrics:
+    gdpGrowth: 2.3
+    debtToGdp: 52
+    inflation: 11.8
+    fiscalBalance: -4.7
+    currentAccount: -8.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PRK"
+  dataQuality: estimated
+
+PRT:
+  iso_a2: PT
+  iso_a3: PRT
+  name: Portugal
+  region: Southern Europe
+  flag: 🇵🇹
+  rating: A
+  outlook: stable
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 82
+    publicFinance: 74
+    external: 76
+    financialStability: 71
+    esgPolitical: 79
+  metrics:
+    gdpGrowth: 1.9
+    debtToGdp: 95
+    inflation: 2.4
+    fiscalBalance: 0.4
+    currentAccount: 1.3
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PRT"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+PRY:
+  iso_a2: PY
+  iso_a3: PRY
+  name: Paraguay
+  region: South America
+  flag: 🇵🇾
+  rating: B
+  outlook: stable
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 29
+    publicFinance: 41
+    external: 25
+    financialStability: 38
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 5.3
+    debtToGdp: 38
+    inflation: 7.3
+    fiscalBalance: -4.6
+    currentAccount: -2.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PRY"
+  dataQuality: estimated
+
+PSX:
+  iso_a2: PS
+  iso_a3: PSX
+  name: Palestine
+  region: Western Asia
+  flag: 🇵🇸
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 17
+    publicFinance: 31
+    external: 27
+    financialStability: 22
+    esgPolitical: 21
+  metrics:
+    gdpGrowth: 4.5
+    debtToGdp: 78
+    inflation: 5.5
+    fiscalBalance: -5.8
+    currentAccount: -2.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/PSX"
+  dataQuality: estimated
+
+QAT:
+  iso_a2: QA
+  iso_a3: QAT
+  name: Qatar
+  region: Western Asia
+  flag: 🇶🇦
+  rating: A+
+  outlook: stable
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 75
+    publicFinance: 71
+    external: 72
+    financialStability: 91
+    esgPolitical: 74
+  metrics:
+    gdpGrowth: 3.8
+    debtToGdp: 60
+    inflation: 2.2
+    fiscalBalance: -2.9
+    currentAccount: 3.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/QAT"
+  dataQuality: estimated
+
+ROU:
+  iso_a2: RO
+  iso_a3: ROU
+  name: Romania
+  region: Eastern Europe
+  flag: 🇷🇴
+  rating: BB
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 50
+    publicFinance: 41
+    external: 42
+    financialStability: 40
+    esgPolitical: 50
+  metrics:
+    gdpGrowth: 3.8
+    debtToGdp: 54
+    inflation: 3.2
+    fiscalBalance: -2.1
+    currentAccount: -1.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ROU"
+  dataQuality: estimated
+
+RUS:
+  iso_a2: RU
+  iso_a3: RUS
+  name: Russia
+  region: Eastern Europe
+  flag: 🇷🇺
+  rating: CCC-
+  outlook: negative
+  scoreIndex: 3
+  categories:
+    domesticEconomic: 15
+    publicFinance: 22
+    external: 20
+    financialStability: 12
+    esgPolitical: 21
+  metrics:
+    gdpGrowth: 3.6
+    debtToGdp: 20
+    inflation: 8.4
+    fiscalBalance: -1.7
+    currentAccount: 2.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at CCC- with a negative outlook by lead agency.
+      impact: negative
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/RUS"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+RWA:
+  iso_a2: RW
+  iso_a3: RWA
+  name: Rwanda
+  region: Eastern Africa
+  flag: 🇷🇼
+  rating: CCC+
+  outlook: positive
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 16
+    publicFinance: 28
+    external: 28
+    financialStability: 32
+    esgPolitical: 32
+  metrics:
+    gdpGrowth: 4.4
+    debtToGdp: 56
+    inflation: 9.6
+    fiscalBalance: -4
+    currentAccount: -5.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/RWA"
+  dataQuality: estimated
+
+SAH:
+  iso_a2: EH
+  iso_a3: SAH
+  name: Western Sahara
+  region: Northern Africa
+  flag: 🇪🇭
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 34
+    publicFinance: 17
+    external: 24
+    financialStability: 24
+    esgPolitical: 16
+  metrics:
+    gdpGrowth: 6.2
+    debtToGdp: 78
+    inflation: 11.6
+    fiscalBalance: -6.6
+    currentAccount: -8.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SAH"
+  dataQuality: estimated
+
+SAU:
+  iso_a2: SA
+  iso_a3: SAU
+  name: Saudi Arabia
+  region: Western Asia
+  flag: 🇸🇦
+  rating: A+
+  outlook: stable
+  scoreIndex: 16
+  categories:
+    domesticEconomic: 76
+    publicFinance: 77
+    external: 71
+    financialStability: 76
+    esgPolitical: 83
+  metrics:
+    gdpGrowth: 1.5
+    debtToGdp: 30
+    inflation: 1.9
+    fiscalBalance: -2.8
+    currentAccount: 2.8
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at A+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SAU"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+SDN:
+  iso_a2: SD
+  iso_a3: SDN
+  name: Sudan
+  region: Northern Africa
+  flag: 🇸🇩
+  rating: B
+  outlook: positive
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 30
+    publicFinance: 29
+    external: 39
+    financialStability: 37
+    esgPolitical: 26
+  metrics:
+    gdpGrowth: 2.1
+    debtToGdp: 48
+    inflation: 7.9
+    fiscalBalance: -4.2
+    currentAccount: -5.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SDN"
+  dataQuality: estimated
+
+SDS:
+  iso_a2: SS
+  iso_a3: SDS
+  name: South Sudan
+  region: Eastern Africa
+  flag: 🇸🇸
+  rating: B
+  outlook: positive
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 27
+    publicFinance: 40
+    external: 29
+    financialStability: 41
+    esgPolitical: 42
+  metrics:
+    gdpGrowth: 5.3
+    debtToGdp: 67
+    inflation: 10.3
+    fiscalBalance: -3.5
+    currentAccount: -3.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SDS"
+  dataQuality: estimated
+
+SEN:
+  iso_a2: SN
+  iso_a3: SEN
+  name: Senegal
+  region: Western Africa
+  flag: 🇸🇳
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 39
+    publicFinance: 29
+    external: 22
+    financialStability: 36
+    esgPolitical: 33
+  metrics:
+    gdpGrowth: 3
+    debtToGdp: 36
+    inflation: 9.7
+    fiscalBalance: -4.7
+    currentAccount: -5.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SEN"
+  dataQuality: estimated
+
+SLB:
+  iso_a2: SB
+  iso_a3: SLB
+  name: Solomon Islands
+  region: Melanesia
+  flag: 🇸🇧
+  rating: BB-
+  outlook: negative
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 39
+    publicFinance: 35
+    external: 38
+    financialStability: 43
+    esgPolitical: 45
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 78
+    inflation: 5.5
+    fiscalBalance: -5.7
+    currentAccount: -3.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SLB"
+  dataQuality: estimated
+
+SLE:
+  iso_a2: SL
+  iso_a3: SLE
+  name: Sierra Leone
+  region: Western Africa
+  flag: 🇸🇱
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 22
+    publicFinance: 23
+    external: 20
+    financialStability: 20
+    esgPolitical: 29
+  metrics:
+    gdpGrowth: 5.9
+    debtToGdp: 75
+    inflation: 11.9
+    fiscalBalance: -6.5
+    currentAccount: -8.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SLE"
+  dataQuality: estimated
+
+SLV:
+  iso_a2: SV
+  iso_a3: SLV
+  name: El Salvador
+  region: Central America
+  flag: 🇸🇻
+  rating: B
+  outlook: stable
+  scoreIndex: 7
+  categories:
+    domesticEconomic: 36
+    publicFinance: 36
+    external: 39
+    financialStability: 40
+    esgPolitical: 43
+  metrics:
+    gdpGrowth: 5.2
+    debtToGdp: 37
+    inflation: 6.6
+    fiscalBalance: -5.1
+    currentAccount: -1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SLV"
+  dataQuality: estimated
+
+SOL:
+  iso_a2: SO
+  iso_a3: SOL
+  name: Somaliland
+  region: Eastern Africa
+  flag: 🇸🇴
+  rating: B+
+  outlook: stable
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 41
+    publicFinance: 31
+    external: 42
+    financialStability: 43
+    esgPolitical: 47
+  metrics:
+    gdpGrowth: 6
+    debtToGdp: 74
+    inflation: 8.3
+    fiscalBalance: -5.7
+    currentAccount: -1.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SOL"
+  dataQuality: estimated
+
+SOM:
+  iso_a2: SO
+  iso_a3: SOM
+  name: Somalia
+  region: Eastern Africa
+  flag: 🇸🇴
+  rating: CCC-
+  outlook: positive
+  scoreIndex: 3
+  categories:
+    domesticEconomic: 13
+    publicFinance: 6
+    external: 13
+    financialStability: 10
+    esgPolitical: 16
+  metrics:
+    gdpGrowth: 4.7
+    debtToGdp: 83
+    inflation: 10.1
+    fiscalBalance: -5.9
+    currentAccount: -4.6
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SOM"
+  dataQuality: estimated
+
+SRB:
+  iso_a2: RS
+  iso_a3: SRB
+  name: Republic of Serbia
+  region: Southern Europe
+  flag: 🇷🇸
+  rating: BB-
+  outlook: negative
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 48
+    publicFinance: 51
+    external: 48
+    financialStability: 41
+    esgPolitical: 50
+  metrics:
+    gdpGrowth: 4.5
+    debtToGdp: 36
+    inflation: 4.3
+    fiscalBalance: -3.6
+    currentAccount: 1.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SRB"
+  dataQuality: estimated
+
+SUR:
+  iso_a2: SR
+  iso_a3: SUR
+  name: Suriname
+  region: South America
+  flag: 🇸🇷
+  rating: BBB-
+  outlook: positive
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 44
+    publicFinance: 64
+    external: 60
+    financialStability: 61
+    esgPolitical: 55
+  metrics:
+    gdpGrowth: 3.7
+    debtToGdp: 53
+    inflation: 3.1
+    fiscalBalance: -2.2
+    currentAccount: -0.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SUR"
+  dataQuality: estimated
+
+SVK:
+  iso_a2: SK
+  iso_a3: SVK
+  name: Slovakia
+  region: Eastern Europe
+  flag: 🇸🇰
+  rating: A
+  outlook: stable
+  scoreIndex: 15
+  categories:
+    domesticEconomic: 65
+    publicFinance: 74
+    external: 75
+    financialStability: 79
+    esgPolitical: 72
+  metrics:
+    gdpGrowth: 2.3
+    debtToGdp: 66
+    inflation: 0.6
+    fiscalBalance: -0.6
+    currentAccount: 1.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SVK"
+  dataQuality: estimated
+
+SVN:
+  iso_a2: SI
+  iso_a3: SVN
+  name: Slovenia
+  region: Southern Europe
+  flag: 🇸🇮
+  rating: A-
+  outlook: positive
+  scoreIndex: 14
+  categories:
+    domesticEconomic: 64
+    publicFinance: 73
+    external: 79
+    financialStability: 71
+    esgPolitical: 66
+  metrics:
+    gdpGrowth: 3.4
+    debtToGdp: 51
+    inflation: 2.2
+    fiscalBalance: -1.8
+    currentAccount: -2.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SVN"
+  dataQuality: estimated
+
+SWE:
+  iso_a2: SE
+  iso_a3: SWE
+  name: Sweden
+  region: Northern Europe
+  flag: 🇸🇪
+  rating: AAA
+  outlook: stable
+  scoreIndex: 20
+  categories:
+    domesticEconomic: 98
+    publicFinance: 94
+    external: 98
+    financialStability: 98
+    esgPolitical: 98
+  metrics:
+    gdpGrowth: 1
+    debtToGdp: 33
+    inflation: 2
+    fiscalBalance: -1
+    currentAccount: 6.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AAA with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SWE"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+SWZ:
+  iso_a2: SZ
+  iso_a3: SWZ
+  name: Swaziland
+  region: Southern Africa
+  flag: 🇸🇿
+  rating: BB-
+  outlook: stable
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 39
+    publicFinance: 41
+    external: 50
+    financialStability: 52
+    esgPolitical: 36
+  metrics:
+    gdpGrowth: 2.8
+    debtToGdp: 84
+    inflation: 8.9
+    fiscalBalance: -5.3
+    currentAccount: -5.9
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SWZ"
+  dataQuality: estimated
+
+SYR:
+  iso_a2: SY
+  iso_a3: SYR
+  name: Syria
+  region: Western Asia
+  flag: 🇸🇾
+  rating: BB-
+  outlook: stable
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 45
+    publicFinance: 52
+    external: 46
+    financialStability: 35
+    esgPolitical: 36
+  metrics:
+    gdpGrowth: 2.3
+    debtToGdp: 78
+    inflation: 8.8
+    fiscalBalance: -5.4
+    currentAccount: -0.6
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/SYR"
+  dataQuality: estimated
+
+TCD:
+  iso_a2: TD
+  iso_a3: TCD
+  name: Chad
+  region: Middle Africa
+  flag: 🇹🇩
+  rating: CCC
+  outlook: stable
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 23
+    publicFinance: 28
+    external: 10
+    financialStability: 20
+    esgPolitical: 29
+  metrics:
+    gdpGrowth: 2.2
+    debtToGdp: 51
+    inflation: 11.7
+    fiscalBalance: -4.8
+    currentAccount: -8.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TCD"
+  dataQuality: estimated
+
+TGO:
+  iso_a2: TG
+  iso_a3: TGO
+  name: Togo
+  region: Western Africa
+  flag: 🇹🇬
+  rating: CCC+
+  outlook: positive
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 22
+    publicFinance: 21
+    external: 16
+    financialStability: 24
+    esgPolitical: 17
+  metrics:
+    gdpGrowth: 2.4
+    debtToGdp: 81
+    inflation: 12.6
+    fiscalBalance: -6
+    currentAccount: -3.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TGO"
+  dataQuality: estimated
+
+THA:
+  iso_a2: TH
+  iso_a3: THA
+  name: Thailand
+  region: South-Eastern Asia
+  flag: 🇹🇭
+  rating: BBB+
+  outlook: stable
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 72
+    publicFinance: 67
+    external: 74
+    financialStability: 57
+    esgPolitical: 63
+  metrics:
+    gdpGrowth: 2.7
+    debtToGdp: 64
+    inflation: 0.8
+    fiscalBalance: -3.6
+    currentAccount: 2
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BBB+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/THA"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+TJK:
+  iso_a2: TJ
+  iso_a3: TJK
+  name: Tajikistan
+  region: Central Asia
+  flag: 🇹🇯
+  rating: CCC
+  outlook: stable
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 17
+    publicFinance: 29
+    external: 19
+    financialStability: 25
+    esgPolitical: 10
+  metrics:
+    gdpGrowth: 3.6
+    debtToGdp: 68
+    inflation: 13.7
+    fiscalBalance: -7.4
+    currentAccount: -7.6
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TJK"
+  dataQuality: estimated
+
+TKM:
+  iso_a2: TM
+  iso_a3: TKM
+  name: Turkmenistan
+  region: Central Asia
+  flag: 🇹🇲
+  rating: BBB-
+  outlook: stable
+  scoreIndex: 11
+  categories:
+    domesticEconomic: 47
+    publicFinance: 59
+    external: 51
+    financialStability: 50
+    esgPolitical: 54
+  metrics:
+    gdpGrowth: 4.1
+    debtToGdp: 58
+    inflation: 3.1
+    fiscalBalance: -2.2
+    currentAccount: -0.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TKM"
+  dataQuality: estimated
+
+TLS:
+  iso_a2: TL
+  iso_a3: TLS
+  name: East Timor
+  region: South-Eastern Asia
+  flag: 🇹🇱
+  rating: CCC+
+  outlook: negative
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 26
+    publicFinance: 24
+    external: 17
+    financialStability: 15
+    esgPolitical: 28
+  metrics:
+    gdpGrowth: 4.6
+    debtToGdp: 79
+    inflation: 6.2
+    fiscalBalance: -5.3
+    currentAccount: -3.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TLS"
+  dataQuality: estimated
+
+TTO:
+  iso_a2: TT
+  iso_a3: TTO
+  name: Trinidad and Tobago
+  region: Caribbean
+  flag: 🇹🇹
+  rating: BBB+
+  outlook: positive
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 59
+    publicFinance: 75
+    external: 66
+    financialStability: 61
+    esgPolitical: 68
+  metrics:
+    gdpGrowth: 0.8
+    debtToGdp: 45
+    inflation: 3.8
+    fiscalBalance: -0.1
+    currentAccount: 0.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TTO"
+  dataQuality: estimated
+
+TUN:
+  iso_a2: TN
+  iso_a3: TUN
+  name: Tunisia
+  region: Northern Africa
+  flag: 🇹🇳
+  rating: B+
+  outlook: stable
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 35
+    publicFinance: 35
+    external: 43
+    financialStability: 40
+    esgPolitical: 49
+  metrics:
+    gdpGrowth: 4.9
+    debtToGdp: 40
+    inflation: 4.2
+    fiscalBalance: -3.7
+    currentAccount: -2.4
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TUN"
+  dataQuality: estimated
+
+TUR:
+  iso_a2: TR
+  iso_a3: TUR
+  name: Turkey
+  region: Western Asia
+  flag: 🇹🇷
+  rating: BB-
+  outlook: positive
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 46
+    publicFinance: 37
+    external: 37
+    financialStability: 53
+    esgPolitical: 53
+  metrics:
+    gdpGrowth: 3
+    debtToGdp: 26
+    inflation: 44
+    fiscalBalance: -4.9
+    currentAccount: -1.5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BB- with a positive outlook by lead agency.
+      impact: positive
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TUR"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+TWN:
+  iso_a2: TW
+  iso_a3: TWN
+  name: Taiwan
+  region: Eastern Asia
+  flag: 🇹🇼
+  rating: BBB+
+  outlook: positive
+  scoreIndex: 13
+  categories:
+    domesticEconomic: 57
+    publicFinance: 68
+    external: 75
+    financialStability: 63
+    esgPolitical: 69
+  metrics:
+    gdpGrowth: 3.6
+    debtToGdp: 80
+    inflation: 1.9
+    fiscalBalance: -1.3
+    currentAccount: 4.2
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TWN"
+  dataQuality: estimated
+
+TZA:
+  iso_a2: TZ
+  iso_a3: TZA
+  name: United Republic of Tanzania
+  region: Eastern Africa
+  flag: 🇹🇿
+  rating: CCC
+  outlook: positive
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 23
+    publicFinance: 27
+    external: 25
+    financialStability: 31
+    esgPolitical: 14
+  metrics:
+    gdpGrowth: 4.9
+    debtToGdp: 85
+    inflation: 10.4
+    fiscalBalance: -5.7
+    currentAccount: -4.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/TZA"
+  dataQuality: estimated
+
+UGA:
+  iso_a2: UG
+  iso_a3: UGA
+  name: Uganda
+  region: Eastern Africa
+  flag: 🇺🇬
+  rating: CCC-
+  outlook: positive
+  scoreIndex: 3
+  categories:
+    domesticEconomic: 20
+    publicFinance: 22
+    external: 21
+    financialStability: 15
+    esgPolitical: 17
+  metrics:
+    gdpGrowth: 3.4
+    debtToGdp: 67
+    inflation: 13.5
+    fiscalBalance: -4.9
+    currentAccount: -6.5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/UGA"
+  dataQuality: estimated
+
+UKR:
+  iso_a2: UA
+  iso_a3: UKR
+  name: Ukraine
+  region: Eastern Europe
+  flag: 🇺🇦
+  rating: CCC
+  outlook: negative
+  scoreIndex: 4
+  categories:
+    domesticEconomic: 21
+    publicFinance: 25
+    external: 12
+    financialStability: 22
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 3
+    debtToGdp: 92
+    inflation: 7
+    fiscalBalance: -19
+    currentAccount: -5
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at CCC with a negative outlook by lead agency.
+      impact: negative
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/UKR"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+URY:
+  iso_a2: UY
+  iso_a3: URY
+  name: Uruguay
+  region: South America
+  flag: 🇺🇾
+  rating: BB-
+  outlook: stable
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 35
+    publicFinance: 55
+    external: 48
+    financialStability: 34
+    esgPolitical: 40
+  metrics:
+    gdpGrowth: 4
+    debtToGdp: 56
+    inflation: 3.4
+    fiscalBalance: -5.9
+    currentAccount: 0.3
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/URY"
+  dataQuality: estimated
+
+USA:
+  iso_a2: US
+  iso_a3: USA
+  name: United States of America
+  region: Northern America
+  flag: 🇺🇸
+  rating: AA+
+  outlook: stable
+  scoreIndex: 19
+  categories:
+    domesticEconomic: 84
+    publicFinance: 93
+    external: 89
+    financialStability: 91
+    esgPolitical: 88
+  metrics:
+    gdpGrowth: 2.8
+    debtToGdp: 121
+    inflation: 3
+    fiscalBalance: -6.3
+    currentAccount: -3.3
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at AA+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/USA"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+UZB:
+  iso_a2: UZ
+  iso_a3: UZB
+  name: Uzbekistan
+  region: Central Asia
+  flag: 🇺🇿
+  rating: B+
+  outlook: stable
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 33
+    publicFinance: 48
+    external: 38
+    financialStability: 33
+    esgPolitical: 40
+  metrics:
+    gdpGrowth: 2.7
+    debtToGdp: 55
+    inflation: 8.8
+    fiscalBalance: -3.6
+    currentAccount: -4.8
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/UZB"
+  dataQuality: estimated
+
+VEN:
+  iso_a2: VE
+  iso_a3: VEN
+  name: Venezuela
+  region: South America
+  flag: 🇻🇪
+  rating: D
+  outlook: negative
+  scoreIndex: 0
+  categories:
+    domesticEconomic: 4
+    publicFinance: 4
+    external: 8
+    financialStability: 4
+    esgPolitical: 4
+  metrics:
+    gdpGrowth: 4
+    debtToGdp: 150
+    inflation: 60
+    fiscalBalance: -5
+    currentAccount: 3
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at D with a negative outlook by lead agency.
+      impact: negative
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/VEN"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+VNM:
+  iso_a2: VN
+  iso_a3: VNM
+  name: Vietnam
+  region: South-Eastern Asia
+  flag: 🇻🇳
+  rating: BB+
+  outlook: stable
+  scoreIndex: 10
+  categories:
+    domesticEconomic: 54
+    publicFinance: 57
+    external: 45
+    financialStability: 48
+    esgPolitical: 40
+  metrics:
+    gdpGrowth: 6.1
+    debtToGdp: 35
+    inflation: 3.5
+    fiscalBalance: -2
+    currentAccount: 1
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BB+ with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/VNM"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+VUT:
+  iso_a2: VU
+  iso_a3: VUT
+  name: Vanuatu
+  region: Melanesia
+  flag: 🇻🇺
+  rating: CCC+
+  outlook: stable
+  scoreIndex: 5
+  categories:
+    domesticEconomic: 20
+    publicFinance: 30
+    external: 20
+    financialStability: 29
+    esgPolitical: 19
+  metrics:
+    gdpGrowth: 3.4
+    debtToGdp: 63
+    inflation: 9.7
+    fiscalBalance: -6.9
+    currentAccount: -5.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/VUT"
+  dataQuality: estimated
+
+YEM:
+  iso_a2: YE
+  iso_a3: YEM
+  name: Yemen
+  region: Western Asia
+  flag: 🇾🇪
+  rating: B+
+  outlook: stable
+  scoreIndex: 8
+  categories:
+    domesticEconomic: 43
+    publicFinance: 45
+    external: 39
+    financialStability: 46
+    esgPolitical: 50
+  metrics:
+    gdpGrowth: 4.3
+    debtToGdp: 75
+    inflation: 5.8
+    fiscalBalance: -5.6
+    currentAccount: -3.7
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/YEM"
+  dataQuality: estimated
+
+ZAF:
+  iso_a2: ZA
+  iso_a3: ZAF
+  name: South Africa
+  region: Southern Africa
+  flag: 🇿🇦
+  rating: BB-
+  outlook: stable
+  scoreIndex: 9
+  categories:
+    domesticEconomic: 45
+    publicFinance: 36
+    external: 35
+    financialStability: 51
+    esgPolitical: 56
+  metrics:
+    gdpGrowth: 1.1
+    debtToGdp: 75
+    inflation: 4.5
+    fiscalBalance: -5
+    currentAccount: -1.6
+  news:
+    - date: "2026-04-22"
+      headline: Rating affirmed at BB- with a stable outlook by lead agency.
+      impact: neutral
+    - date: "2026-02-11"
+      headline: Latest budget and debt-issuance plan reviewed against fiscal trajectory.
+      impact: neutral
+  lastUpdated: "2026-04-22"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ZAF"
+    - label: S&P Global Ratings
+      url: "https://www.spglobal.com/ratings/en/"
+  dataQuality: real
+
+ZMB:
+  iso_a2: ZM
+  iso_a3: ZMB
+  name: Zambia
+  region: Eastern Africa
+  flag: 🇿🇲
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 28
+    publicFinance: 29
+    external: 29
+    financialStability: 24
+    esgPolitical: 24
+  metrics:
+    gdpGrowth: 2.6
+    debtToGdp: 54
+    inflation: 9.2
+    fiscalBalance: -3.3
+    currentAccount: -5
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ZMB"
+  dataQuality: estimated
+
+ZWE:
+  iso_a2: ZW
+  iso_a3: ZWE
+  name: Zimbabwe
+  region: Eastern Africa
+  flag: 🇿🇼
+  rating: B-
+  outlook: stable
+  scoreIndex: 6
+  categories:
+    domesticEconomic: 35
+    publicFinance: 30
+    external: 23
+    financialStability: 40
+    esgPolitical: 25
+  metrics:
+    gdpGrowth: 3.3
+    debtToGdp: 42
+    inflation: 13.9
+    fiscalBalance: -5.1
+    currentAccount: -8.1
+  news:
+    - date: "2026-03-15"
+      headline: Model-based assessment refreshed from latest macro releases.
+      impact: neutral
+  lastUpdated: "2026-03-15"
+  sources:
+    - label: IMF World Economic Outlook
+      url: "https://www.imf.org/en/Publications/WEO"
+    - label: World Bank Open Data
+      url: "https://data.worldbank.org/country/ZWE"
+  dataQuality: estimated
