@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flag-icons": "^7.5.0",
     "js-yaml": "^4.2.0",
     "lucide-react": "^1.17.0",
     "react": "^19.2.6",

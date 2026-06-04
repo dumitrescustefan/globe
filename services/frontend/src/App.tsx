@@ -3,15 +3,19 @@ import { Header } from './components/Header'
 import { RiskGlobe } from './components/RiskGlobe'
 import { RiskLegend } from './components/RiskLegend'
 import { CountryPanel } from './components/CountryPanel'
+import { OverviewPanel } from './components/OverviewPanel'
+import { MetricSelector } from './components/MetricSelector'
 import { Methodology } from './components/Methodology'
 import { SalesSection } from './components/SalesSection'
 import { Footer } from './components/Footer'
 import { useTheme } from './hooks/useTheme'
-import { getCountryByIso3, sovereignDatabase } from './data/sovereignData'
+import { allCountries, getCountryByIso3, sovereignDatabase } from './data/sovereignData'
+import { DEFAULT_METRIC, METRICS, type MetricKey } from './lib/metrics'
 
 function App() {
   const { theme, toggleTheme } = useTheme()
   const [selectedIso3, setSelectedIso3] = useState<string | null>(null)
+  const [metric, setMetric] = useState<MetricKey>(DEFAULT_METRIC)
 
   const selectedCountry = useMemo(
     () => getCountryByIso3(selectedIso3),
@@ -46,21 +50,34 @@ function App() {
               </p>
             </div>
 
-            <div className="mt-8 grid gap-5 lg:grid-cols-[7fr_3fr]">
+            <div className="mt-8">
+              <MetricSelector selected={metric} onSelect={setMetric} />
+            </div>
+
+            <div className="mt-4 grid gap-5 lg:grid-cols-[7fr_3fr]">
               <div className="relative h-[clamp(420px,68vh,760px)] overflow-hidden rounded-3xl border border-[var(--surface-border)] bg-[var(--bg-globe)]">
                 <RiskGlobe
                   selectedIso3={selectedIso3}
                   onSelect={setSelectedIso3}
+                  metric={metric}
                   theme={theme}
                 />
-                <RiskLegend />
+                <RiskLegend metric={metric} />
               </div>
 
               <aside className="h-[clamp(420px,68vh,760px)] overflow-hidden rounded-3xl border border-[var(--surface-border)] bg-[var(--surface)] backdrop-blur-xl">
-                <CountryPanel
-                  country={selectedCountry}
-                  onClose={() => setSelectedIso3(null)}
-                />
+                {selectedCountry ? (
+                  <CountryPanel
+                    country={selectedCountry}
+                    onClose={() => setSelectedIso3(null)}
+                  />
+                ) : (
+                  <OverviewPanel
+                    metric={METRICS[metric]}
+                    countries={allCountries}
+                    onSelect={setSelectedIso3}
+                  />
+                )}
               </aside>
             </div>
           </div>

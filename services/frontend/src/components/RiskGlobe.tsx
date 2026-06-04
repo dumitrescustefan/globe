@@ -7,14 +7,17 @@ import {
   type CountryFeature,
 } from '../lib/geo'
 import { getCountryByIso3 } from '../data/sovereignData'
-import { colorForRating } from '../lib/rating'
+import { colorForMetric, METRICS, type MetricKey } from '../lib/metrics'
 import type { Theme } from '../hooks/useTheme'
 
 interface RiskGlobeProps {
   selectedIso3: string | null
   onSelect: (iso3: string | null) => void
+  metric: MetricKey
   theme: Theme
 }
+
+const NEUTRAL_COLOR = '#475569'
 
 const GLOBE_IMAGE: Record<Theme, string> = {
   dark: 'https://unpkg.com/three-globe/example/img/earth-night.jpg',
@@ -30,6 +33,8 @@ const FOCUS_ALTITUDE = 1.5
 const SELECTED_POLYGON_ALTITUDE = 0.18
 const HOVER_POLYGON_ALTITUDE = 0.08
 const BASE_POLYGON_ALTITUDE = 0.012
+/** Finer than default (5°) for smoother caps; 1–2° can stall or fail on first load. */
+const POLYGON_CAP_CURVATURE_RESOLUTION = 3
 const AUTO_ROTATE_SPEED = 0.45
 const FOCUS_TRANSITION_MS = 900
 
@@ -41,7 +46,8 @@ function hexToRgba(hex: string, alpha: number): string {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`
 }
 
-export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
+export function RiskGlobe({ selectedIso3, onSelect, metric, theme }: RiskGlobeProps) {
+  const metricDef = METRICS[metric]
   const globeRef = useRef<GlobeMethods | undefined>(undefined)
   const containerRef = useRef<HTMLDivElement>(null)
   const [features, setFeatures] = useState<CountryFeature[]>([])
@@ -125,7 +131,7 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
       const feature = feat as CountryFeature
       const iso3 = featureIso3(feature)
       const country = getCountryByIso3(iso3)
-      const base = country ? colorForRating(country.rating) : '#475569'
+      const base = country ? colorForMetric(metricDef, country) : NEUTRAL_COLOR
       if (iso3 === selectedIso3) {
         return hexToRgba(base, 1)
       }
@@ -134,7 +140,7 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
       }
       return hexToRgba(base, 0.78)
     },
-    [selectedIso3, hoveredIso3],
+    [selectedIso3, hoveredIso3, metricDef],
   )
 
   // Darker extruded rim separates neighbors without 1px stroke lines (option A).
@@ -142,11 +148,11 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
     (feat: object) => {
       const iso3 = featureIso3(feat as CountryFeature)
       const country = getCountryByIso3(iso3)
-      const base = country ? colorForRating(country.rating) : '#475569'
+      const base = country ? colorForMetric(metricDef, country) : NEUTRAL_COLOR
       const rimAlpha = theme === 'dark' ? 0.55 : 0.65
       return hexToRgba(base, rimAlpha)
     },
-    [theme],
+    [theme, metricDef],
   )
 
   const polygonAltitude = useCallback(
@@ -163,12 +169,17 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
     [selectedIso3, hoveredIso3],
   )
 
-  const polygonLabel = useCallback((feat: object) => {
-    const feature = feat as CountryFeature
-    const country = getCountryByIso3(featureIso3(feature))
-    const name = country?.name ?? feature.properties.ADMIN
-    const rating = country ? country.rating : 'NR'
-    return `<div style="
+  const polygonLabel = useCallback(
+    (feat: object) => {
+      const feature = feat as CountryFeature
+      const country = getCountryByIso3(featureIso3(feature))
+      const name = country?.name ?? feature.properties.ADMIN
+      const value = country ? metricDef.display(country) : 'NR'
+      const code = country?.iso_a2?.trim().toLowerCase()
+      const flag = code
+        ? `<span class="fi fi-${code}" style="display:inline-block;width:18px;height:13px;border-radius:2px;margin-right:6px;vertical-align:-2px;"></span>`
+        : ''
+      return `<div style="
         font-family: Inter, sans-serif;
         background: rgba(10,14,22,0.92);
         color: #f8fafc;
@@ -176,10 +187,12 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
         border-radius: 8px;
         border: 1px solid rgba(148,163,184,0.25);
         font-size: 12px;">
-        <strong>${country?.flag ?? ''} ${name}</strong><br/>
-        Rating: <strong>${rating}</strong>
+        <strong>${flag}${name}</strong><br/>
+        ${metricDef.label}: <strong>${value}</strong>
       </div>`
-  }, [])
+    },
+    [metricDef],
+  )
 
   const handleClick = useCallback(
     (feat: object) => {
@@ -203,7 +216,7 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
 
   return (
     <div ref={containerRef} className="relative h-full w-full">
-      {size.width > 0 && size.height > 0 && (
+      {size.width > 0 && size.height > 0 && features.length > 0 && (
         <Globe
           ref={globeRef}
           width={size.width}
@@ -216,6 +229,7 @@ export function RiskGlobe({ selectedIso3, onSelect, theme }: RiskGlobeProps) {
           polygonsData={features}
           polygonCapColor={capColor}
           polygonSideColor={sideColor}
+          polygonCapCurvatureResolution={POLYGON_CAP_CURVATURE_RESOLUTION}
           polygonAltitude={polygonAltitude}
           polygonLabel={polygonLabel}
           polygonsTransitionDuration={300}

@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import type { CountryRisk, NewsImpact } from '../data/types'
 import { MAX_SCORE_INDEX, OUTLOOK_META, tierMetaForRating } from '../lib/rating'
+import { Flag } from './Flag'
 
 interface CountryPanelProps {
   country: CountryRisk | null
@@ -85,9 +86,7 @@ export function CountryPanel({ country, onClose }: CountryPanelProps) {
     <div className="flex h-full flex-col">
       <div className="flex items-start justify-between gap-3 border-b border-[var(--surface-border)] px-5 py-4">
         <div className="flex items-center gap-3">
-          <span className="text-3xl leading-none" aria-hidden>
-            {country.flag}
-          </span>
+          <Flag iso2={country.iso_a2} name={country.name} height={28} />
           <div>
             <h2 className="text-lg font-bold text-[var(--text-strong)]">
               {country.name}
